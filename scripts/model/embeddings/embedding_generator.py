@@ -3,11 +3,14 @@ import glob
 import numpy as np
 import os
 import nltk
+import re
+import string
 import torch
 from collections import defaultdict
 
 nltk.download("punkt")
 nltk.download('punkt_tab')
+nltk.download('stopwords')
 
 from nltk.tokenize import sent_tokenize
 from sentence_transformers import SentenceTransformer
@@ -28,9 +31,14 @@ class EmbeddingGenerator:
             with open(file_path, "r", encoding="utf-8") as f:
                 data.append(f.read())
         return " \n".join(data)
+    
+    def _clean_text(self, text: str) -> str:
+        stop_words = set(nltk.corpus.stopwords.words('english'))
+        text = ' '.join([word for word in text.split() if word.lower() not in stop_words])
+        return text
 
     def _chunk_text(self, max_chars=800, overlap=100):
-        text = self._get_data()
+        text = self._clean_text(self._get_data())
         sentences = sent_tokenize(text)
         chunks, current = [], ""
         for sentence in sentences:
@@ -45,6 +53,7 @@ class EmbeddingGenerator:
 
     def generate_embeddings(self):
         chunks = self._chunk_text()
+        print(chunks)
         model = SentenceTransformer(self.embedding_model_name)
         embeddings = model.encode(chunks, show_progress_bar= True, batch_size= 100, device= self.device, normalize_embeddings= True)
         return embeddings
