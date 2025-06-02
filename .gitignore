@@ -10,3 +10,6 @@ wheels/
 .venv
 
 .env
+
+# Model cache
+models_cache/

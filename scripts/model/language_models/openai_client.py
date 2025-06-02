@@ -35,12 +35,3 @@ class OpenRouterClient(OpenAIClient):
             base_url="https://openrouter.ai/api/v1",
         )
         super().__init__(api_key)
-
-
-if __name__ == "__main__":
-    model_id = "openai/gpt-4.1"
-    model = OpenRouterClient(api_key=os.getenv("OPENROUTER_API_KEY"))
-    response = model.generate_text(
-        prompt="Selam Müslüm, benimle konuş", model=model_id, response_json=False
-    )
-    print(response)
