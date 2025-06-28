@@ -63,6 +63,8 @@ class JudgeAgent(BaseAgent):
         ).model_dump_json()}
 
         ## RULES
+        - Your overall comparison must be well detailed and must be in a way that is easy to understand.
+        - Justifications must be well explained and must be in a way that is easy to understand.
         - Be objective and consistent.
         - Do not generate new answers; judge only what is provided.
         - Highlight both strong and weak points for each output.
