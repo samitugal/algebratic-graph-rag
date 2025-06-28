@@ -7,8 +7,22 @@ class GraphSearcher:
         self.db_client = db_client
         self.embedding_generator = EmbeddingGenerator()
 
-    def search_graph_with_embeddings(self, query: str, k_hops: int = 2):
-        """Search the graph with embeddings using k-hop traversal"""
+    def search_graph_with_knn(self, query: str, k: int = 3):
+        """Search the graph with KNN"""
+        query_embedding = self.embedding_generator.generate_embeddings_from_text(query)
+        knn_results = self.db_client.knn_search(query_embedding, k)
+
+        return [
+            {
+                "node_id": result["id"],
+                "content": result["text"],
+                "score": result["score"],
+            }
+            for result in knn_results
+        ]
+
+    def search_graph_with_embeddings(self, query: str, k_hops: int = 2, top_k: int = 5):
+        """PageRank-based search with distance penalty"""
 
         query_embedding = self.embedding_generator.generate_embeddings_from_text(query)
 
@@ -19,6 +33,7 @@ class GraphSearcher:
             return []
 
         start_node_id = target_nodes[0]["id"]
+        print(f"Starting PageRank from node: {start_node_id}")
 
         traversal_nodes = self.db_client.k_hop_traversal_with_content(
             start_node_id, k_hops
@@ -36,93 +51,24 @@ class GraphSearcher:
                     query_embedding, node_embedding
                 )
 
+                hop_distance = node.get("hop_distance", 1)
+                path_weight = node.get("path_weight", 1.0)
+
+                final_score = similarity * path_weight
+
                 enriched_nodes.append(
                     {
                         "node_id": node["node_id"],
                         "content": node["content"],
-                        "original_weight": node.get("weight", 0.0),
                         "query_similarity": similarity,
+                        "hop_distance": hop_distance,
+                        "path_weight": path_weight,
+                        "pagerank_score": final_score,
                         "relationship_type": node.get("relationship_type", "unknown"),
-                        "hop_distance": node.get("hop_distance", 1),
                     }
                 )
 
-        enriched_nodes.sort(key=lambda x: x["query_similarity"], reverse=True)
+        enriched_nodes.sort(key=lambda x: x["pagerank_score"], reverse=True)
+        top_nodes = enriched_nodes[:top_k]
 
-        return enriched_nodes
-
-    def calculate_pagerank_scores(
-        self, nodes, damping_factor=0.85, max_iterations=100, tolerance=1e-6
-    ):
-        """PageRank algoritması - node'ların önem skorlarını hesapla"""
-        if not nodes:
-            return []
-
-        n = len(nodes)
-        node_ids = [node["node_id"] for node in nodes]
-
-        scores = {node_id: 1.0 / n for node_id in node_ids}
-
-        links = {}
-        for i, node in enumerate(nodes):
-            links[node["node_id"]] = []
-            for j, other_node in enumerate(nodes):
-                if i != j:
-                    link_weight = (
-                        node["query_similarity"]
-                        * other_node["query_similarity"]
-                        * (
-                            1.0
-                            / max(
-                                1,
-                                abs(node["hop_distance"] - other_node["hop_distance"]),
-                            )
-                        )
-                    )
-                    if link_weight > 0.1:  # Threshold
-                        links[node["node_id"]].append(
-                            (other_node["node_id"], link_weight)
-                        )
-
-        for iteration in range(max_iterations):
-            new_scores = {}
-
-            for node_id in node_ids:
-                new_score = (1 - damping_factor) / n
-
-                incoming_score = 0
-                for other_id in node_ids:
-                    if other_id != node_id and other_id in links:
-                        for linked_id, weight in links[other_id]:
-                            if linked_id == node_id:
-                                # Gelen link'in ağırlığı
-                                outgoing_count = len(links[other_id])
-                                if outgoing_count > 0:
-                                    incoming_score += (
-                                        scores[other_id] * weight
-                                    ) / outgoing_count
-
-                new_scores[node_id] = new_score + damping_factor * incoming_score
-
-            diff = sum(
-                abs(new_scores[node_id] - scores[node_id]) for node_id in node_ids
-            )
-            scores = new_scores
-
-            if diff < tolerance:
-                print(f"PageRank converged after {iteration + 1} iterations")
-                break
-
-        for node in nodes:
-            node["pagerank_score"] = scores[node["node_id"]]
-
-        nodes.sort(key=lambda x: x["pagerank_score"], reverse=True)
-
-        print(f"\nPageRank Scores (Top 10):")
-        for i, node in enumerate(nodes[:10]):
-            print(
-                f"{i+1}. Node {node['node_id']}: PageRank={node['pagerank_score']:.4f}, "
-                f"Query Similarity={node['query_similarity']:.4f}"
-            )
-
-        return nodes
+        return top_nodes

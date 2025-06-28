@@ -307,7 +307,7 @@ class Neo4jClient:
 
     def knn_search(self, query_embedding, k: int = 3):
         """KNN search for the query embedding"""
-        # Embedding'i list formatına çevir
+
         if hasattr(query_embedding, "tolist"):
             embedding = query_embedding.tolist()
         else:
@@ -366,18 +366,18 @@ class Neo4jClient:
                 WHERE hop_distance <= $k_hops AND connected.id <> $node_id
                 WITH connected.id as node_id, connected.content as content, connected.embedding as embedding,
                      hop_distance, 
-                     reduce(total = 0.0, rel in rels | total + coalesce(rel.weight, 0.0)) / size(rels) as avg_weight,
+                     reduce(total = 1.0, rel in rels | total * coalesce(rel.weight, 1.0)) as path_weight_product,
                      head([rel in rels | type(rel)]) as relationship_type
                 WITH node_id, content, embedding, 
                      min(hop_distance) as min_hop_distance,
-                     max(avg_weight) as best_weight,
+                     max(path_weight_product) as best_weight,
                      collect(relationship_type)[0] as relationship_type
                 RETURN DISTINCT 
                     node_id,
                     content,
                     embedding,
                     min_hop_distance as hop_distance,
-                    best_weight as avg_weight,
+                    best_weight as path_weight,
                     relationship_type
                 ORDER BY min_hop_distance ASC, best_weight DESC
                 """,
@@ -389,7 +389,7 @@ class Neo4jClient:
                     "content": record["content"],
                     "embedding": record["embedding"],
                     "hop_distance": record["hop_distance"],
-                    "weight": record["avg_weight"] or 0.0,
+                    "path_weight": record["path_weight"] or 1.0,
                     "relationship_type": record["relationship_type"],
                 }
                 for record in result
