@@ -1,4 +1,6 @@
-from .embedding_generator import EmbeddingGenerator, ChunkLinker, SubgraphBuilder, SubgraphSummarizer, HierarchicalSummarizer
+from .embedding_generator import (ChunkLinker, EmbeddingGenerator,
+                                  HierarchicalSummarizer, SubgraphBuilder,
+                                  SubgraphSummarizer)
 
 __all__ = ["EmbeddingGenerator", "ChunkLinker", "SubgraphBuilder", "SubgraphSummarizer", "HierarchicalSummarizer"]
 

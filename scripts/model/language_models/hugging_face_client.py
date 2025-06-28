@@ -1,7 +1,8 @@
-from transformers import pipeline
-import torch
 import os
 import warnings
+
+import torch
+from transformers import pipeline
 
 warnings.filterwarnings("ignore")
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
