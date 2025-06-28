@@ -10,14 +10,11 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 from dotenv import load_dotenv
+
 from scripts.graphdb.ne4oj_client import Neo4jClient
-from scripts.model.embeddings import (
-    ChunkLinker,
-    EmbeddingGenerator,
-    HierarchicalSummarizer,
-    SubgraphBuilder,
-    SubgraphSummarizer,
-)
+from scripts.model.embeddings import (ChunkLinker, EmbeddingGenerator,
+                                      HierarchicalSummarizer, SubgraphBuilder,
+                                      SubgraphSummarizer)
 from scripts.model.language_models import SimpleSummarizer
 
 load_dotenv()

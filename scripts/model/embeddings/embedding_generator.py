@@ -31,8 +31,9 @@ except LookupError:
     nltk.download("stopwords", quiet=True)
 
 from nltk.tokenize import sent_tokenize
-from scripts.model.language_models import SimpleSummarizer
 from sentence_transformers import SentenceTransformer
+
+from scripts.model.language_models import SimpleSummarizer
 
 load_dotenv()
 
@@ -44,7 +45,7 @@ class EmbeddingGenerator:
         self, embedding_model_name: str = "sentence-transformers/all-mpnet-base-v2"
     ):
         self.embedding_model_name = embedding_model_name
-        self.data_dir = os.environ.get("DATA_ABS_DIR")
+        self.data_dir = os.environ.get("DATA_ABS_DIR") or "scripts/data"
         self.device = "cpu"
 
         if embedding_model_name not in self._models:
