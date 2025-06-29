@@ -17,7 +17,7 @@ class QAAgent(BaseAgent):
         self,
         user_request: str,
         additional_context: str = "",
-        response_json: bool = False,
+        response_json: bool = True,
         response_model: type[BaseModel] = QAResponse,
     ):
         prompt = f"""

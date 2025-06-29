@@ -1,5 +1,5 @@
 import os
-from pyexpat import model
+from pprint import pprint
 import warnings
 
 warnings.filterwarnings("ignore")
@@ -35,7 +35,7 @@ def main():
         [f"{node['node_id']}: {node['content']}" for node in related_nodes]
     )
     pagerank_response = qa_agent.invoke(topic, additional_context)
-    print(pagerank_response)
+    pprint(pagerank_response)
     print("#" * 100)
 
     print("KNN-based GraphRAG")
@@ -44,7 +44,7 @@ def main():
         [f"{node['node_id']}: {node['content']}" for node in related_nodes]
     )
     knn_response = qa_agent.invoke(topic, additional_context)
-    print(knn_response)
+    pprint(knn_response)
     print("#" * 100)
 
     print("GraphRAG-based")
@@ -53,7 +53,7 @@ def main():
         [f"{node['node_id']}: {node['content']}" for node in related_nodes]
     )
     graphrag_response = qa_agent.invoke(topic, additional_context)
-    print(graphrag_response)
+    pprint(graphrag_response)
     print("#" * 100)
 
     judge_request = f"""
@@ -71,7 +71,7 @@ def main():
     """
 
     judge_response = judge_agent.invoke(judge_request)
-    print(judge_response)
+    pprint(judge_response)
     print("#" * 100)
 
 

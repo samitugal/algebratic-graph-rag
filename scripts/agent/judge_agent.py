@@ -1,3 +1,4 @@
+from typing_extensions import override
 from pydantic import BaseModel, Field
 
 from scripts.agent.base_agent import BaseAgent
@@ -19,6 +20,7 @@ class JudgeAgent(BaseAgent):
     def __init__(self, client: OpenAIClient):
         super().__init__(client)
 
+    @override
     def invoke(
         self,
         user_request: str,
@@ -55,9 +57,9 @@ class JudgeAgent(BaseAgent):
         Your output must be in JSON format.
         {response_model(
             model_results=[
-                OutputPoint(model_name="Pagerank-based GraphRAG", score=8, justification="Detailed explanation here"),
-                OutputPoint(model_name="KNN-based GraphRAG", score=8, justification="Detailed explanation here"),
-                OutputPoint(model_name="GraphRAG-based", score=8, justification="Detailed explanation here"),
+                OutputPoint(model_name="Pagerank-based GraphRAG", score=1, justification="Detailed explanation here"),
+                OutputPoint(model_name="KNN-based GraphRAG", score=1, justification="Detailed explanation here"),
+                OutputPoint(model_name="GraphRAG-based", score=1, justification="Detailed explanation here"),
             ],
             overall_comparison="Brief comparison summary",
         ).model_dump_json()}
