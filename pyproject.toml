@@ -1,11 +1,12 @@
 [build-system]
-requires = ["setuptools", "wheel", "python"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "algebratic-graph-rag"
 version = "0.1.0"
 description = "PageRank-based Hierarchical GraphRAG System with Academic Evaluation Framework"
+requires-python = ">=3.8"
 dependencies = [
     "python-dotenv",
     "neo4j",
@@ -14,9 +15,6 @@ dependencies = [
     "networkx",
     "numpy",
     "scikit-learn",
-    "langchain",
-    "langchain-openai", 
-    "langchain-community",
     "pypdf",
     "pydantic",
     "typing-extensions",

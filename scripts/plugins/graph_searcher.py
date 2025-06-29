@@ -34,7 +34,6 @@ class GraphSearcher:
             return []
 
         start_node_id = target_nodes[0]["id"]
-        print(f"Starting optimized PageRank from node: {start_node_id}")
 
         traversal_nodes = self.db_client.k_hop_traversal_with_content(
             start_node_id, k_hops

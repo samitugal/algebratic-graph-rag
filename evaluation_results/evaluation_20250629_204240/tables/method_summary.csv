@@ -1,0 +1,4 @@
+Method,Mean_Score,Std_Dev,Min_Score,Max_Score,Win_Count
+PageRank_GraphRAG,0.725,0.039,0.681,0.786,1
+KNN_GraphRAG,0.751,0.051,0.695,0.815,2
+Basic_GraphRAG,0.734,0.059,0.651,0.818,2

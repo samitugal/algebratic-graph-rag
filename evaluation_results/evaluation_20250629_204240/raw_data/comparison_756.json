@@ -1,0 +1,277 @@
+{
+  "question": "What is object-oriented programming?",
+  "results": [
+    {
+      "method_name": "PageRank_GraphRAG",
+      "question": "What is object-oriented programming?",
+      "answer": "{\"answer\":\"Object-oriented programming (OOP) is a programming paradigm that revolves around the concept of \\\"objects\\\". These objects can represent real-world entities or processes and encapsulate data and behavior, allowing for a more organized and modular approach to programming. OOP enables developers to create reusable code and fosters a clearer structure by using features centered around objects.\\n\\nIn OOP, the primary components include:\\n1. **Classes**: A class is a blueprint for creating objects and defines a set of properties and methods that the created objects can utilize.\\n2. **Objects**: An object is an instance of a class and contains data attributes and methods that manipulate those attributes. For example, an `Employee` object might contain attributes like `first_name` and `position`, and methods to perform actions related to the employee.\\n3. **Encapsulation**: Encapsulation is the principle of bundling the data (attributes) and behavior (methods) that operate on the data into a single unit, or object, while restricting access to some of the object's components. This helps prevent outside interference and misuse of the object's data.\\n4. **Inheritance**: This is a mechanism by which one class can inherit properties and methods from another class, promoting code reuse and establishing a hierarchical relationship between classes.\\n5. **Polymorphism**: Polymorphism allows objects of different classes to be treated as objects of a common superclass, primarily through method overriding and interface implementation.\\n\\nOOP languages such as Java, Python, C++, Ruby, and others are designed with these principles in mind. They provide built-in support for creating and managing objects, enabling developers to model complex systems in a more intuitive way. OOP contrasts with other programming paradigms, such as functional programming, by emphasizing the use of objects to structure code rather than relying primarily on functions and algorithms.\\n\\nEach OOP feature serves to organize software design around real-world concepts and relationships, thereby helping to simplify both development and maintenance. However, the approach has faced criticism, particularly regarding its capacity to model complexity and adapt to changes in real-world systems.\"}",
+      "context": "Node L1_S10: Modern languages include structured programming constructs like loops conditionals. Support modular programming lets programmers organize related procedures files modules.\n\nNode L1_S48: Object-oriented programming (OOP) is a type of programming style. OOP languages like Python, PowerShell, Ruby Groovy, designed with OOP mind. Some programmers prefer functional programming.\n\nNode L1_S42: Object-oriented programming focuses working objects, OOP languages every feature linked OOP. Java, developed Sun Microsystems, well C# Visual Basic.NET (VB.NET), designed Microsoft's .NET platform. languages show benefits\n\nNode L1_S40: First version Smalltalk programming language developed at Xerox PARC in 1970s. Smalltalk-72 notable use objects language level graphical development environment. Object-oriented Lisp developed starting 1979, introducing multiple inheritance mixins.\n\nNode 92: Objects usually stored memory, many programming languages, work like pointers link directly contiguous block containing object instances's data. Objects contain objects. called object composition. example, Employee object might Address object inside it, along information like \"first_name\" \"position\". type structures shows \"has-a\" relationships, like \"an employee address\". believe OOP places much focus using objects rather algorithms data structures. [34][35] example, programmer Rob Pike pointed OOP make programmers think type hierarchy composition. [36] called object-oriented programming \"the Roman numerals computing\". [37] Rich Hickey, creator Clojure, described OOP overly simplistic, especially comes representing real-world things change time. [35] Alexander Stepanov said OOP tries fit everything single type, limiting. argued sometimes need multisorted algebras—families interfaces span multiple types, generic programming. Stepanov also said calling everything \"object\" add much understanding. [34] Real-world modeling relationships Sometimes, objects represent real-world things processes digital form. [38] example, graphics program may objects \"circle\", \"square\", \"menu\".\n\nNode L1_S47: Many popular programming languages, like C++, Java, Python, use object-oriented programming. OOP languages include Ruby, Scala, Smalltalk and Eiffel.",
+      "retrieved_nodes": [
+        {
+          "node_id": "L1_S10",
+          "content": "Modern languages include structured programming constructs like loops conditionals. Support modular programming lets programmers organize related procedures files modules.",
+          "query_similarity": 0.6494250556864248,
+          "hop_distance": 1,
+          "path_weight": 0.4531155184712634,
+          "pagerank_score": 0.35159540640211917,
+          "quality_boost": 1.1948275167059275,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": "L1_S48",
+          "content": "Object-oriented programming (OOP) is a type of programming style. OOP languages like Python, PowerShell, Ruby Groovy, designed with OOP mind. Some programmers prefer functional programming.",
+          "query_similarity": 0.5669042173737627,
+          "hop_distance": 2,
+          "path_weight": 0.4531155184712634,
+          "pagerank_score": 0.30055983121911034,
+          "quality_boost": 1.1700712652121288,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": "L1_S42",
+          "content": "Object-oriented programming focuses working objects, OOP languages every feature linked OOP. Java, developed Sun Microsystems, well C# Visual Basic.NET (VB.NET), designed Microsoft's .NET platform. languages show benefits",
+          "query_similarity": 0.5641774173477995,
+          "hop_distance": 2,
+          "path_weight": 0.4531155184712634,
+          "pagerank_score": 0.29890502160253657,
+          "quality_boost": 1.16925322520434,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": "L1_S40",
+          "content": "First version Smalltalk programming language developed at Xerox PARC in 1970s. Smalltalk-72 notable use objects language level graphical development environment. Object-oriented Lisp developed starting 1979, introducing multiple inheritance mixins.",
+          "query_similarity": 0.56223251170518,
+          "hop_distance": 3,
+          "path_weight": 0.4531155184712634,
+          "pagerank_score": 0.29772595432833576,
+          "quality_boost": 1.168669753511554,
+          "relationship_type": "SUMMARIZED_IN"
+        },
+        {
+          "node_id": 92,
+          "content": "Objects usually stored memory, many programming languages, work like pointers link directly contiguous block containing object instances's data. Objects contain objects. called object composition. example, Employee object might Address object inside it, along information like \"first_name\" \"position\". type structures shows \"has-a\" relationships, like \"an employee address\". believe OOP places much focus using objects rather algorithms data structures. [34][35] example, programmer Rob Pike pointed OOP make programmers think type hierarchy composition. [36] called object-oriented programming \"the Roman numerals computing\". [37] Rich Hickey, creator Clojure, described OOP overly simplistic, especially comes representing real-world things change time. [35] Alexander Stepanov said OOP tries fit everything single type, limiting. argued sometimes need multisorted algebras—families interfaces span multiple types, generic programming. Stepanov also said calling everything \"object\" add much understanding. [34] Real-world modeling relationships Sometimes, objects represent real-world things processes digital form. [38] example, graphics program may objects \"circle\", \"square\", \"menu\".",
+          "query_similarity": 0.3296190406476364,
+          "hop_distance": 1,
+          "path_weight": 0.801271378993988,
+          "pagerank_score": 0.29023143421923137,
+          "quality_boost": 1.098885712194291,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": "L1_S47",
+          "content": "Many popular programming languages, like C++, Java, Python, use object-oriented programming. OOP languages include Ruby, Scala, Smalltalk and Eiffel.",
+          "query_similarity": 0.540175714667808,
+          "hop_distance": 3,
+          "path_weight": 0.4531155184712634,
+          "pagerank_score": 0.2844263453400947,
+          "quality_boost": 1.1620527144003423,
+          "relationship_type": "SUMMARIZED_IN"
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.6,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.8,
+        "completeness": 1.0,
+        "hallucination_score": 0.04
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer contains significant unfaithful information, introducing concepts and details that are not explicitly included in the provided context. While it captures the essence of OOP, it deviates with additional comparisons and critiques that were not present.",
+        "answer_relevancy": "The answer comprehensively addresses the question by clearly defining OOP and explaining its core concepts. It provides relevant details about OOP’s features, enhancing the reader's understanding.",
+        "context_precision": "The context contains substantial relevant information about OOP. However, there are minor extraneous details that slightly detract from the focus on OOP itself.",
+        "completeness": "The answer is thorough and covers all important aspects of OOP, including its core concepts with ample examples, providing a complete response.",
+        "hallucination_score": "The answer does not contain hallucinated information and aligns closely with the provided context throughout. The information is factual and relevant."
+      },
+      "overall_score": 0.7246,
+      "timestamp": "2025-06-29T21:03:49.211853",
+      "response_time": 7.8268156,
+      "token_usage": {
+        "prompt_tokens": 277,
+        "completion_tokens": 320
+      },
+      "run_count": 10,
+      "score_variance": 0.03969942624830294,
+      "individual_scores": [
+        0.67,
+        0.74,
+        0.73,
+        0.706,
+        0.74,
+        0.8,
+        0.72,
+        0.74,
+        0.66,
+        0.74
+      ]
+    },
+    {
+      "method_name": "KNN_GraphRAG",
+      "question": "What is object-oriented programming?",
+      "answer": "{\"answer\":\"Object-oriented programming (OOP) is a programming paradigm designed to enhance code reusability and maintainability by modeling software using structures called objects. An object is a type of data structure that contains two main components: fields (also known as members, attributes, or properties) and methods (which are actions, subroutines, or procedures that define the object's behavior).\\n\\nIn OOP, the design closely mirrors real-world entities, making it well-suited for modeling complex systems and behaviors. For example, in an online shopping system, objects might include entities such as \\\"shopping cart\\\", \\\"customer\\\", and \\\"product\\\". The ability to represent both concrete real-world objects and abstract entities enables developers to create more intuitive and relatable systems.\\n\\nOne of the key features of OOP is inheritance, which allows for the reusing and extending of code. This can be achieved through class-based or prototype-based inheritance. In class-based OOP, each object is an instance of a class, which serves as a blueprint defining the object’s structure and behavior. Classes can inherit from one another, promoting code efficiency while reducing redundancy.\\n\\nAdditionally, OOP allows for the encapsulation of state, meaning that an object’s fields can be protected from outside interference and direct access, further enhancing data integrity and security. Coupled with polymorphism, where objects can take on many forms, OOP facilitates a flexible and dynamic coding environment.\\n\\nHowever, critics of OOP argue that it can sometimes lead to complexity, particularly when compared to procedural programming, as well as challenges related to inheritance and state management. Nonetheless, OOP has become a dominant paradigm in many modern programming languages due to its alignment with real-world problem solving and system modeling.\"}",
+      "context": "Node 91: Variables hold different data types like integers, strings, lists, hash tables. data types built-in others result combining variables using memory pointers. Procedures – also known functions, methods, routines, subroutines – take input, generate output, work data. Modern languages include structured programming constructs like loops conditionals. Support modular programming lets programmers organize related procedures files modules. makes programs easier manage. modules namespace, items one module conflict items another. Object-oriented programming (OOP) created make code easier reuse maintain. [29] However, designed clearly show flow program's instructions—that left compiler. computers began using parallel processing multiple threads, became important understand control instructions flow. difficult OOP. [30][31][32][33] Objects Main article: Object (computer science) object type data structure two main parts: fields methods. Fields may also known members, attributes, properties, hold information form state variables. Methods actions, subroutines, procedures, defining object's behavior code.\n\nNode 93: online shopping system might objects \"shopping cart\", \"customer\", \"product\". Niklaus Wirth said, \"This paradigm [OOP] closely reflects structure systems real world therefore well suited model complex systems complex behavior\". [39] However, often, objects represent abstract entities, like open file unit converter. everyone agrees OOP makes easy copy real world exactly even necessary. Bob Martin suggests classes software, relationships match real-world relationships represent. [40] Bertrand Meyer argues Object-Oriented Software Construction, program model world model part world; \"Reality cousin twice removed\". [41] Steve Yegge noted natural languages lack OOP approach strictly prioritizing things (objects/nouns) actions (methods/verbs), opposed functional programming reverse. [42] sometimes make OOP solutions complicated written procedural programming. [43] Inheritance OOP languages allow reusing extending code \"inheritance\". inheritance use either \"classes\" \"prototypes\", differences use similar terms ideas like \"object\" \"instance\". Class-based class-based programming, common type OOP, every object instance specific class.\n\nNode 108: Formal semantics See also: Formal semantics programming languages object-oriented programming, objects things exist program running. object represent anything, like person, place, bank account, table data. Many researchers tried formally define OOP works. Records basis understanding objects. represent fields, also methods, function literals stored. However, inheritance presents difficulties, particularly interactions open recursion encapsulated state. Researchers used recursive types co-algebraic data types incorporate essential features OOP. [73] Abadi Cardelli defined several extensions System F<: deal mutable objects, allowing subtype polymorphism parametric polymorphism (generics), able formally model many OOP concepts constructs. [74] Although far trivial, static analysis object-oriented programming languages Java mature field,[75] several commercial tools. [76]",
+      "retrieved_nodes": [
+        {
+          "node_id": 91,
+          "content": "Variables hold different data types like integers, strings, lists, hash tables. data types built-in others result combining variables using memory pointers. Procedures – also known functions, methods, routines, subroutines – take input, generate output, work data. Modern languages include structured programming constructs like loops conditionals. Support modular programming lets programmers organize related procedures files modules. makes programs easier manage. modules namespace, items one module conflict items another. Object-oriented programming (OOP) created make code easier reuse maintain. [29] However, designed clearly show flow program's instructions—that left compiler. computers began using parallel processing multiple threads, became important understand control instructions flow. difficult OOP. [30][31][32][33] Objects Main article: Object (computer science) object type data structure two main parts: fields methods. Fields may also known members, attributes, properties, hold information form state variables. Methods actions, subroutines, procedures, defining object's behavior code.",
+          "score": 0.6672413349151611
+        },
+        {
+          "node_id": 93,
+          "content": "online shopping system might objects \"shopping cart\", \"customer\", \"product\". Niklaus Wirth said, \"This paradigm [OOP] closely reflects structure systems real world therefore well suited model complex systems complex behavior\". [39] However, often, objects represent abstract entities, like open file unit converter. everyone agrees OOP makes easy copy real world exactly even necessary. Bob Martin suggests classes software, relationships match real-world relationships represent. [40] Bertrand Meyer argues Object-Oriented Software Construction, program model world model part world; \"Reality cousin twice removed\". [41] Steve Yegge noted natural languages lack OOP approach strictly prioritizing things (objects/nouns) actions (methods/verbs), opposed functional programming reverse. [42] sometimes make OOP solutions complicated written procedural programming. [43] Inheritance OOP languages allow reusing extending code \"inheritance\". inheritance use either \"classes\" \"prototypes\", differences use similar terms ideas like \"object\" \"instance\". Class-based class-based programming, common type OOP, every object instance specific class.",
+          "score": 0.6727356910705566
+        },
+        {
+          "node_id": 108,
+          "content": "Formal semantics See also: Formal semantics programming languages object-oriented programming, objects things exist program running. object represent anything, like person, place, bank account, table data. Many researchers tried formally define OOP works. Records basis understanding objects. represent fields, also methods, function literals stored. However, inheritance presents difficulties, particularly interactions open recursion encapsulated state. Researchers used recursive types co-algebraic data types incorporate essential features OOP. [73] Abadi Cardelli defined several extensions System F<: deal mutable objects, allowing subtype polymorphism parametric polymorphism (generics), able formally model many OOP concepts constructs. [74] Although far trivial, static analysis object-oriented programming languages Java mature field,[75] several commercial tools. [76]",
+          "score": 0.6823122501373291
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.8400000000000001,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.775,
+        "completeness": 0.99,
+        "hallucination_score": 0.04
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer is largely faithful to the context, accurately presenting the core principles of OOP while including additional information that enhances understanding but goes slightly beyond the provided text.",
+        "answer_relevancy": "The answer thoroughly and directly addresses the question regarding OOP, including definitions, key components, and relevant examples that enhance clarity and understanding.",
+        "context_precision": "While most of the context retrieved is relevant, some advanced topics and critiques may diminish clarity for someone seeking a straightforward understanding of OOP.",
+        "completeness": "The answer comprehensively covers all aspects of OOP, ensuring a thorough understanding of the paradigm, including definitions, structure, features, and criticisms.",
+        "hallucination_score": "No hallucinations found; all information is consistent with the provided context and accurately represents the principles of OOP without adding unverifiable facts."
+      },
+      "overall_score": 0.8147,
+      "timestamp": "2025-06-29T21:11:02.449112",
+      "response_time": 7.7341884,
+      "token_usage": {
+        "prompt_tokens": 387,
+        "completion_tokens": 264
+      },
+      "run_count": 10,
+      "score_variance": 0.04298333010210662,
+      "individual_scores": [
+        0.76,
+        0.84,
+        0.84,
+        0.76,
+        0.84,
+        0.817,
+        0.8,
+        0.76,
+        0.88,
+        0.85
+      ]
+    },
+    {
+      "method_name": "Basic_GraphRAG",
+      "question": "What is object-oriented programming?",
+      "answer": "{\"answer\":\"Object-oriented programming (OOP) is a programming paradigm that utilizes \\\"objects\\\" to represent data and methods for manipulating that data. The essential concepts of OOP revolve around the use of classes and objects. A class serves as a blueprint for creating objects (instances), encapsulating data for the object in the form of fields (or properties) and methods (functions that define behaviors or actions).\\n\\n### Key Features of Object-Oriented Programming:\\n1. **Encapsulation**: This principle allows objects to hide their internal state and only expose a controlled interface. Encapsulation helps in reducing complexity and increasing reusability by separating the object's internal workings from its external interface.\\n\\n2. **Abstraction**: OOP focuses on simplifying complex real-world tasks by modeling them with objects, which can represent both concrete entities (like shapes in a graphic application) and abstract entities (like processes).\\n\\n3. **Inheritance**: This feature allows one class (the subclass) to inherit the properties and behaviors of another class (the superclass). This promotes code reuse and establishes a relationship between classes, making it easier to create hierarchies and share common functionality.\\n\\n4. **Polymorphism**: This allows for methods to do different things based on the object it is acting upon, even if they share the same name. For example, a method called \\\"draw\\\" might be implemented differently in a \\\"Circle\\\" class and a \\\"Square\\\" class, but can be invoked uniformly on a reference of type \\\"Shape.\\\"\\n\\n### Real-World Modeling:\\nOOP is often seen as a good fit for modeling real-world systems due to its emphasis on objects that can represent tangible entities and their relationships. For instance, in an online shopping system, one might model objects like \\\"ShoppingCart,\\\" \\\"Customer,\\\" and \\\"Product,\\\" where each object encapsulates relevant data and behaviors.\\n\\n### Composition and Object Relationships:\\nObjects can contain other objects, often referred to as composition. For example, an \\\"Employee\\\" object could contain an \\\"Address\\\" object, illustrating a \\\"has-a\\\" relationship. This composition approach allows for the creation of complex structures that represent real-world scenarios.\\n\\n### Emphasis on Objects Over Algorithms:\\nOne of the defining aspects of OOP is its focus on using objects rather than algorithms or data structures. This leads programmers to think in terms of type hierarchies and compositions, which can sometimes simplify problems compared to traditional procedural programming methods.\\n\\n### Critiques and Challenges:\\nWhile OOP offers many advantages, it is not without its critiques. Some programmers argue that it may oversimplify certain relationships and fail to adequately represent complex systems. Others have noted that, as programs become larger and require parallel processing, managing flow and control can become more complicated. Additionally, OOP may sometimes lead to more complex code than similar implementations in procedural programming.\\n\\nOverall, OOP has become a dominant programming paradigm in modern development, providing a powerful framework for building scalable and maintainable software.\"}",
+      "context": "Node 100: [60] example, imagine program two shapes: circle square. come common class called \"Shape.\" shape way drawing itself. subtype polymorphism, program need know type shape, simply call \"Draw\" method shape. programming language runtime ensure correct version \"Draw\" method runs shape. details shape handled inside classes, makes code simpler organized, enabling strong separation concerns. Open recursion object-oriented programming, objects methods change use object's data. Many programming languages use special word, like self, refer current object. languages support open recursion, method object call methods object, including itself, using special word. allows method one class call another method defined later subclass, feature known late binding. OOP languages section cite sources. Please help improve section adding citations reliable sources. Unsourced material may challenged removed. (August 2009) (Learn remove message) See also: List object-oriented programming languages OOP languages grouped different types based support use objects: Pure OOP languages: languages, everything treated object, even basic things like numbers characters. designed fully support enforce OOP.\n\nNode 92: Objects usually stored memory, many programming languages, work like pointers link directly contiguous block containing object instances's data. Objects contain objects. called object composition. example, Employee object might Address object inside it, along information like \"first_name\" \"position\". type structures shows \"has-a\" relationships, like \"an employee address\". believe OOP places much focus using objects rather algorithms data structures. [34][35] example, programmer Rob Pike pointed OOP make programmers think type hierarchy composition. [36] called object-oriented programming \"the Roman numerals computing\". [37] Rich Hickey, creator Clojure, described OOP overly simplistic, especially comes representing real-world things change time. [35] Alexander Stepanov said OOP tries fit everything single type, limiting. argued sometimes need multisorted algebras—families interfaces span multiple types, generic programming. Stepanov also said calling everything \"object\" add much understanding. [34] Real-world modeling relationships Sometimes, objects represent real-world things processes digital form. [38] example, graphics program may objects \"circle\", \"square\", \"menu\".\n\nNode 91: Variables hold different data types like integers, strings, lists, hash tables. data types built-in others result combining variables using memory pointers. Procedures – also known functions, methods, routines, subroutines – take input, generate output, work data. Modern languages include structured programming constructs like loops conditionals. Support modular programming lets programmers organize related procedures files modules. makes programs easier manage. modules namespace, items one module conflict items another. Object-oriented programming (OOP) created make code easier reuse maintain. [29] However, designed clearly show flow program's instructions—that left compiler. computers began using parallel processing multiple threads, became important understand control instructions flow. difficult OOP. [30][31][32][33] Objects Main article: Object (computer science) object type data structure two main parts: fields methods. Fields may also known members, attributes, properties, hold information form state variables. Methods actions, subroutines, procedures, defining object's behavior code.\n\nNode 93: online shopping system might objects \"shopping cart\", \"customer\", \"product\". Niklaus Wirth said, \"This paradigm [OOP] closely reflects structure systems real world therefore well suited model complex systems complex behavior\". [39] However, often, objects represent abstract entities, like open file unit converter. everyone agrees OOP makes easy copy real world exactly even necessary. Bob Martin suggests classes software, relationships match real-world relationships represent. [40] Bertrand Meyer argues Object-Oriented Software Construction, program model world model part world; \"Reality cousin twice removed\". [41] Steve Yegge noted natural languages lack OOP approach strictly prioritizing things (objects/nouns) actions (methods/verbs), opposed functional programming reverse. [42] sometimes make OOP solutions complicated written procedural programming. [43] Inheritance OOP languages allow reusing extending code \"inheritance\". inheritance use either \"classes\" \"prototypes\", differences use similar terms ideas like \"object\" \"instance\". Class-based class-based programming, common type OOP, every object instance specific class.\n\nNode 108: Formal semantics See also: Formal semantics programming languages object-oriented programming, objects things exist program running. object represent anything, like person, place, bank account, table data. Many researchers tried formally define OOP works. Records basis understanding objects. represent fields, also methods, function literals stored. However, inheritance presents difficulties, particularly interactions open recursion encapsulated state. Researchers used recursive types co-algebraic data types incorporate essential features OOP. [73] Abadi Cardelli defined several extensions System F<: deal mutable objects, allowing subtype polymorphism parametric polymorphism (generics), able formally model many OOP concepts constructs. [74] Although far trivial, static analysis object-oriented programming languages Java mature field,[75] several commercial tools. [76]",
+      "retrieved_nodes": [
+        {
+          "node_id": 100,
+          "content": "[60] example, imagine program two shapes: circle square. come common class called \"Shape.\" shape way drawing itself. subtype polymorphism, program need know type shape, simply call \"Draw\" method shape. programming language runtime ensure correct version \"Draw\" method runs shape. details shape handled inside classes, makes code simpler organized, enabling strong separation concerns. Open recursion object-oriented programming, objects methods change use object's data. Many programming languages use special word, like self, refer current object. languages support open recursion, method object call methods object, including itself, using special word. allows method one class call another method defined later subclass, feature known late binding. OOP languages section cite sources. Please help improve section adding citations reliable sources. Unsourced material may challenged removed. (August 2009) (Learn remove message) See also: List object-oriented programming languages OOP languages grouped different types based support use objects: Pure OOP languages: languages, everything treated object, even basic things like numbers characters. designed fully support enforce OOP.",
+          "score": 0.6574010848999023
+        },
+        {
+          "node_id": 92,
+          "content": "Objects usually stored memory, many programming languages, work like pointers link directly contiguous block containing object instances's data. Objects contain objects. called object composition. example, Employee object might Address object inside it, along information like \"first_name\" \"position\". type structures shows \"has-a\" relationships, like \"an employee address\". believe OOP places much focus using objects rather algorithms data structures. [34][35] example, programmer Rob Pike pointed OOP make programmers think type hierarchy composition. [36] called object-oriented programming \"the Roman numerals computing\". [37] Rich Hickey, creator Clojure, described OOP overly simplistic, especially comes representing real-world things change time. [35] Alexander Stepanov said OOP tries fit everything single type, limiting. argued sometimes need multisorted algebras—families interfaces span multiple types, generic programming. Stepanov also said calling everything \"object\" add much understanding. [34] Real-world modeling relationships Sometimes, objects represent real-world things processes digital form. [38] example, graphics program may objects \"circle\", \"square\", \"menu\".",
+          "score": 0.6648197174072266
+        },
+        {
+          "node_id": 91,
+          "content": "Variables hold different data types like integers, strings, lists, hash tables. data types built-in others result combining variables using memory pointers. Procedures – also known functions, methods, routines, subroutines – take input, generate output, work data. Modern languages include structured programming constructs like loops conditionals. Support modular programming lets programmers organize related procedures files modules. makes programs easier manage. modules namespace, items one module conflict items another. Object-oriented programming (OOP) created make code easier reuse maintain. [29] However, designed clearly show flow program's instructions—that left compiler. computers began using parallel processing multiple threads, became important understand control instructions flow. difficult OOP. [30][31][32][33] Objects Main article: Object (computer science) object type data structure two main parts: fields methods. Fields may also known members, attributes, properties, hold information form state variables. Methods actions, subroutines, procedures, defining object's behavior code.",
+          "score": 0.6672413349151611
+        },
+        {
+          "node_id": 93,
+          "content": "online shopping system might objects \"shopping cart\", \"customer\", \"product\". Niklaus Wirth said, \"This paradigm [OOP] closely reflects structure systems real world therefore well suited model complex systems complex behavior\". [39] However, often, objects represent abstract entities, like open file unit converter. everyone agrees OOP makes easy copy real world exactly even necessary. Bob Martin suggests classes software, relationships match real-world relationships represent. [40] Bertrand Meyer argues Object-Oriented Software Construction, program model world model part world; \"Reality cousin twice removed\". [41] Steve Yegge noted natural languages lack OOP approach strictly prioritizing things (objects/nouns) actions (methods/verbs), opposed functional programming reverse. [42] sometimes make OOP solutions complicated written procedural programming. [43] Inheritance OOP languages allow reusing extending code \"inheritance\". inheritance use either \"classes\" \"prototypes\", differences use similar terms ideas like \"object\" \"instance\". Class-based class-based programming, common type OOP, every object instance specific class.",
+          "score": 0.6727356910705566
+        },
+        {
+          "node_id": 108,
+          "content": "Formal semantics See also: Formal semantics programming languages object-oriented programming, objects things exist program running. object represent anything, like person, place, bank account, table data. Many researchers tried formally define OOP works. Records basis understanding objects. represent fields, also methods, function literals stored. However, inheritance presents difficulties, particularly interactions open recursion encapsulated state. Researchers used recursive types co-algebraic data types incorporate essential features OOP. [73] Abadi Cardelli defined several extensions System F<: deal mutable objects, allowing subtype polymorphism parametric polymorphism (generics), able formally model many OOP concepts constructs. [74] Although far trivial, static analysis object-oriented programming languages Java mature field,[75] several commercial tools. [76]",
+          "score": 0.6823122501373291
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.8400000000000001,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.76,
+        "completeness": 1.0,
+        "hallucination_score": 0.022222222222222223
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer is mostly faithful to the context provided, with accurate coverage of OOP concepts and correct examples, though it includes some minor extrapolations not directly supported by the context.",
+        "answer_relevancy": "The answer is completely relevant to the question, effectively covering the definition and fundamental features of OOP with contextual real-world examples.",
+        "context_precision": "The context provides relevant information about OOP but contains tangential critiques and some poorly constructed sentences, leading to potential confusion.",
+        "completeness": "The answer is thorough, addressing all key areas of OOP and discussing its features, real-world applications, and critiques, ensuring a full understanding of the topic.",
+        "hallucination_score": "The answer contains no unverifiable information, accurately reflecting established knowledge within the field of computer science with relevant examples."
+      },
+      "overall_score": 0.818,
+      "timestamp": "2025-06-29T21:18:38.220700",
+      "response_time": 10.1785225,
+      "token_usage": {
+        "prompt_tokens": 694,
+        "completion_tokens": 445
+      },
+      "run_count": 10,
+      "score_variance": 0.05533734925185902,
+      "individual_scores": [
+        0.82,
+        0.86,
+        0.86,
+        0.92,
+        0.82,
+        0.8,
+        0.74,
+        0.76,
+        0.84,
+        0.76
+      ]
+    }
+  ],
+  "judge_evaluation": {
+    "model_results": [
+      {
+        "model_name": "PageRank_GraphRAG",
+        "score": 9,
+        "justification": "The output provides a thorough explanation of object-oriented programming (OOP), detailing key concepts like classes, objects, encapsulation, inheritance, and polymorphism. It thoroughly covers the benefits of OOP and contrasts it with other paradigms, making it highly relevant and complete. The complexity of the language used may slightly hinder explainability for beginners, but the depth of information justifies a high score."
+      },
+      {
+        "model_name": "KNN_GraphRAG",
+        "score": 8,
+        "justification": "This answer effectively outlines the principles of OOP, discussing important features such as encapsulation, inheritance, and polymorphism. It provides relevant examples to illustrate these concepts, enhancing its completeness and explainability. However, it lacks some depth compared to the PageRank_GraphRAG output, particularly on the critique of OOP, which slightly lowers its score."
+      },
+      {
+        "model_name": "Basic_GraphRAG",
+        "score": 7,
+        "justification": "The response presents a solid overview of OOP and covers essential concepts like encapsulation, inheritance, and polymorphism with clear explanations. While it touches on critiques of the paradigm, the structure and depth of the response are less coherent and less engaging than the outputs from the other algorithms. Some terminology may also be daunting for those unfamiliar with OOP, affecting its overall explainability."
+      }
+    ],
+    "overall_comparison": "The PageRank_GraphRAG output performed the best due to its comprehensive coverage of OOP concepts and strong contrast with other programming paradigms. The KNN_GraphRAG followed closely, offering a solid explanation though lacking depth in critiques. Basic_GraphRAG was the least effective output, providing a decent overview but falling short in clarity and engagement, with some overly technical language that detracted from its overall accessibility."
+  },
+  "best_method": "Basic_GraphRAG",
+  "timestamp": "2025-06-29T21:25:17.370894",
+  "statistical_analysis": {
+    "score_statistics": {
+      "mean": 0.7857666666666666,
+      "median": 0.8147,
+      "std_dev": 0.05299757856103739,
+      "min": 0.7246,
+      "max": 0.818
+    },
+    "response_time_statistics": {
+      "mean": 8.579842166666666,
+      "median": 7.8268156,
+      "std_dev": 1.385272195521531,
+      "min": 7.7341884,
+      "max": 10.1785225
+    },
+    "method_rankings": {
+      "PageRank_GraphRAG": 0.7246,
+      "KNN_GraphRAG": 0.8147,
+      "Basic_GraphRAG": 0.818
+    }
+  }
+}

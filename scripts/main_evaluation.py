@@ -12,8 +12,7 @@ def main():
     print("🚀 Starting Comprehensive RAG Evaluation System (CLT Multiple Runs)")
     print("=" * 70)
 
-    # Initialize with 5 runs for AI judge variance compensation
-    pipeline = AcademicEvaluationPipeline(n_runs=5)
+    pipeline = AcademicEvaluationPipeline(n_runs=10)
 
     test_questions = [
         "Explain computer programming and artificial intelligence",

@@ -1,0 +1,30 @@
+{
+  "experiment_id": "evaluation_20250629_204240",
+  "timestamp": "2025-06-29T20:42:40.897761",
+  "questions": [
+    "Explain computer programming and artificial intelligence",
+    "What is object-oriented programming?",
+    "Tell me about Turkey and Izmir",
+    "What is computer programming and artificial intelligence?",
+    "Give me the information about Object-Oriented Programming"
+  ],
+  "methods_evaluated": [
+    "PageRank_GraphRAG",
+    "KNN_GraphRAG",
+    "Basic_GraphRAG"
+  ],
+  "total_questions": 5,
+  "total_methods": 3,
+  "total_comparisons": 15,
+  "evaluation_framework": "PageRank-GraphRAG Academic Evaluation",
+  "metrics_used": [
+    "faithfulness",
+    "answer_relevancy",
+    "context_precision",
+    "completeness",
+    "hallucination_detection"
+  ],
+  "graph_database": "Neo4j",
+  "embeddings_model": "paraphrase-multilingual-mpnet-base-v2",
+  "llm_model": "gpt-4o-mini"
+}

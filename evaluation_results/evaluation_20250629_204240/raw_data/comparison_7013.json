@@ -1,0 +1,277 @@
+{
+  "question": "What is computer programming and artificial intelligence?",
+  "results": [
+    {
+      "method_name": "PageRank_GraphRAG",
+      "question": "What is computer programming and artificial intelligence?",
+      "answer": "{\n  \"answer\": \"Computer programming is the process of designing and building executable computer software to accomplish specific tasks. It involves writing code in various programming languages that can effectively interact with computer hardware to perform predefined functions. The history of programming began with foundational texts like Maurice Wilkes, David Wheeler, and Stanley Gill's 'Preparation Programs for Electronic Digital Computers' published in 1951, which provided instructions for programming one of the world’s first stored-program computers, the EDSAC. Over time, high-level programming languages such as FORTRAN, COBOL, and later languages like C, have emerged, allowing programmers to write more efficient and complex code using keywords and concepts that simplify the logic required by machines.\\n\\nAdditionally, programming tools such as compilers and interpreters have been developed to translate high-level code into machine language. This evolution made programming more accessible and expanded the field, enabling a wide range of applications from scientific computations to commercial data processing and everyday software solutions. Resources and guides for programmers also proliferated, providing tutorials and reference materials to assist developers in mastering various languages and concepts.\\n\\nArtificial intelligence (AI), on the other hand, is a branch of computer science that focuses on creating systems that can perform tasks that typically require human intelligence. These tasks may include learning, reasoning, problem-solving, perception, language understanding, and decision-making. While the connection between programming and AI is significant – as programming is the foundation for developing AI systems – AI also encompasses machine learning, neural networks, and various algorithms designed to improve the ability of machines to learn from data. Overall, both programming and AI are crucial fields in technology, driving innovation and efficiency across numerous industries.\"\n}",
+      "context": "Node 56: [28] first book containing specific instructions program computer may Maurice Wilkes, David Wheeler, Stanley Gill's Preparation Programs Electronic Digital Computer (1951). book offered selection common subroutines handling basic operations EDSAC, one world's first stored-program computers. high-level languages arrived, introduced numerous books materials explained language keywords, managing program flow, working data, concepts. languages included FLOW-MATIC, COBOL, FORTRAN, ALGOL, Pascal, BASIC, C. example early programming primer years Marshal H. Wrubel's Primer Programming Digital Computers (1959), included step-by-step instructions filling coding sheets, creating punched cards, using keywords IBM's early FORTRAN system. [29] Daniel McCracken's Guide FORTRAN Programming (1961) presented FORTRAN larger audience, including students office workers. 1961, Alan Perlis suggested university freshmen Carnegie Technical Institute take course computer programming. [30] advice published popular technical journal Computers Automation, became regular source information professional programmers. Programmers soon range learning texts disposal.\n\nNode L1_S31: FORTRAN, first widely used high-level language functional implementation, came 1957. COBOL aimed commercial data processing, Lisp computer research. Compilers harnessed power computers make programming easier.\n\nNode L1_S8: First book containing specific instructions program computer may Maurice Wilkes, David Wheeler, Stanley Gill's Preparation Programs Electronic Digital Computer (1951). book offered selection common subroutines handling basic operations EDSAC, one world's first\n\nNode L2_S1: First book containing specific instructions program computer may Maurice Wilkes, David Wheeler, Stanley Gill's Preparation Programs Electronic Digital Computer (1951). book offered selection common subroutines handling basic operations EDSAC, one world's first\n\nNode L3_S2: First book containing specific instructions program computer may Maurice Wilkes, David Wheeler, Stanley Gill's Preparation Programs Electronic Digital Computer (1951) book offered selection common subroutines handling basic operations EDSAC, one world's first\n\nNode 57: Programmer's references listed keywords functions related language, often alphabetical order, well technical information compilers related systems. early example IBM's Programmers' Reference Manual: FORTRAN Automatic Coding System IBM 704 EDPM (1956). time, genre programmer's guides emerged, presented features language tutorial step step format. Many early primers started program known “Hello, World”, presented shortest program developer could create given system. Programmer's guides went discuss core topics like declaring variables, data types, formulas, flow control, user-defined functions, manipulating data, topics. Early influential programmer's guides included John G. Kemeny Thomas E. Kurtz's BASIC Programming (1967), Kathleen Jensen Niklaus Wirth's Pascal User Manual Report (1971), Brian W. Kernighan Dennis Ritchie's C Programming Language (1978). Similar books popular audiences (but much lighter tone) included Bob Albrecht's Computer Loves Speak BASIC (1972), Al Kelley Ira Pohl's Book C (1984), Dan Gookin's C Dummies (1994). Beyond language-specific primers, numerous books academic journals introduced professional programming practices.",
+      "retrieved_nodes": [
+        {
+          "node_id": 56,
+          "content": "[28] first book containing specific instructions program computer may Maurice Wilkes, David Wheeler, Stanley Gill's Preparation Programs Electronic Digital Computer (1951). book offered selection common subroutines handling basic operations EDSAC, one world's first stored-program computers. high-level languages arrived, introduced numerous books materials explained language keywords, managing program flow, working data, concepts. languages included FLOW-MATIC, COBOL, FORTRAN, ALGOL, Pascal, BASIC, C. example early programming primer years Marshal H. Wrubel's Primer Programming Digital Computers (1959), included step-by-step instructions filling coding sheets, creating punched cards, using keywords IBM's early FORTRAN system. [29] Daniel McCracken's Guide FORTRAN Programming (1961) presented FORTRAN larger audience, including students office workers. 1961, Alan Perlis suggested university freshmen Carnegie Technical Institute take course computer programming. [30] advice published popular technical journal Computers Automation, became regular source information professional programmers. Programmers soon range learning texts disposal.",
+          "query_similarity": 0.2615089219475265,
+          "hop_distance": 1,
+          "path_weight": 0.7939492702484131,
+          "pagerank_score": 0.22391354042099895,
+          "quality_boost": 1.078452676584258,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": "L1_S31",
+          "content": "FORTRAN, first widely used high-level language functional implementation, came 1957. COBOL aimed commercial data processing, Lisp computer research. Compilers harnessed power computers make programming easier.",
+          "query_similarity": 0.3714839771929221,
+          "hop_distance": 2,
+          "path_weight": 0.5160709124343026,
+          "pagerank_score": 0.21307746430095498,
+          "quality_boost": 1.1114451931578766,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": "L1_S8",
+          "content": "First book containing specific instructions program computer may Maurice Wilkes, David Wheeler, Stanley Gill's Preparation Programs Electronic Digital Computer (1951). book offered selection common subroutines handling basic operations EDSAC, one world's first",
+          "query_similarity": 0.3712383941879985,
+          "hop_distance": 1,
+          "path_weight": 0.5160709124343026,
+          "pagerank_score": 0.21292248665646873,
+          "quality_boost": 1.1113715182563995,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": "L2_S1",
+          "content": "First book containing specific instructions program computer may Maurice Wilkes, David Wheeler, Stanley Gill's Preparation Programs Electronic Digital Computer (1951). book offered selection common subroutines handling basic operations EDSAC, one world's first",
+          "query_similarity": 0.24275378783821436,
+          "hop_distance": 2,
+          "path_weight": 0.5160709124343026,
+          "pagerank_score": 0.1344016937884615,
+          "quality_boost": 1.0728261363514644,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": "L3_S2",
+          "content": "First book containing specific instructions program computer may Maurice Wilkes, David Wheeler, Stanley Gill's Preparation Programs Electronic Digital Computer (1951) book offered selection common subroutines handling basic operations EDSAC, one world's first",
+          "query_similarity": 0.23941712985161098,
+          "hop_distance": 3,
+          "path_weight": 0.5160709124343026,
+          "pagerank_score": 0.13243065908497642,
+          "quality_boost": 1.0718251389554834,
+          "relationship_type": "SUMMARIZED_IN"
+        },
+        {
+          "node_id": 57,
+          "content": "Programmer's references listed keywords functions related language, often alphabetical order, well technical information compilers related systems. early example IBM's Programmers' Reference Manual: FORTRAN Automatic Coding System IBM 704 EDPM (1956). time, genre programmer's guides emerged, presented features language tutorial step step format. Many early primers started program known “Hello, World”, presented shortest program developer could create given system. Programmer's guides went discuss core topics like declaring variables, data types, formulas, flow control, user-defined functions, manipulating data, topics. Early influential programmer's guides included John G. Kemeny Thomas E. Kurtz's BASIC Programming (1967), Kathleen Jensen Niklaus Wirth's Pascal User Manual Report (1971), Brian W. Kernighan Dennis Ritchie's C Programming Language (1978). Similar books popular audiences (but much lighter tone) included Bob Albrecht's Computer Loves Speak BASIC (1972), Al Kelley Ira Pohl's Book C (1984), Dan Gookin's C Dummies (1994). Beyond language-specific primers, numerous books academic journals introduced professional programming practices.",
+          "query_similarity": 0.1896546678084852,
+          "hop_distance": 2,
+          "path_weight": 0.6585408146991756,
+          "pagerank_score": 0.13200143468437245,
+          "quality_boost": 1.0568964003425456,
+          "relationship_type": "RELATED_TO"
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.68,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.5,
+        "completeness": 1.0,
+        "hallucination_score": 0.02
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer accurately reflects core elements of computer programming history and mentions relevant concepts, such as significant programming languages, but introduces additional information about AI that is not strictly supported by the given context.",
+        "answer_relevancy": "The answer directly addresses the question by providing a thorough overview of both computer programming and artificial intelligence, making strong connections between the two.",
+        "context_precision": "While the context provides valuable information about programming's history and languages, it does not address AI, which is a crucial part of the question, leading to a lower precision score.",
+        "completeness": "The answer comprehensively covers all aspects of the question regarding programming and AI, detailing their history and interconnection effectively.",
+        "hallucination_score": "The answer is coherent and grounded in the provided context without any instances of fabricated or unverifiable information."
+      },
+      "overall_score": 0.7050000000000001,
+      "timestamp": "2025-06-29T21:46:12.416159",
+      "response_time": 5.975918200000001,
+      "token_usage": {
+        "prompt_tokens": 417,
+        "completion_tokens": 274
+      },
+      "run_count": 10,
+      "score_variance": 0.07749551958375113,
+      "individual_scores": [
+        0.68,
+        0.7100000000000001,
+        0.66,
+        0.65,
+        0.76,
+        0.76,
+        0.58,
+        0.84,
+        0.77,
+        0.64
+      ]
+    },
+    {
+      "method_name": "KNN_GraphRAG",
+      "question": "What is computer programming and artificial intelligence?",
+      "answer": "{\n    \"answer\": \"Computer programming is the process of designing and building executable computer software to accomplish specific tasks. This involves writing code in various programming languages, such as Python, Java, or C++, which defines the instructions that a computer must follow to perform operations or solve problems. Programming requires a deep understanding of algorithms, data structures, and the logic behind how computers interpret and execute code. It can range from simple scripts that automate repetitive tasks to complex applications that power millions of devices and processes worldwide.\\n\\nArtificial intelligence (AI), on the other hand, refers to systems or machines that mimic human intelligence to perform tasks and can iteratively improve themselves based on the information they collect. Since the term 'artificial intelligence' was introduced in 1956, it has evolved significantly, especially with advancements in data processing and algorithm calculations. Historically, early AI research focused on symbolic problem-solving methods. However, more recent developments, particularly in machine learning and deep learning, have allowed AI to perform complex functions such as speech recognition, image and data analysis, and making predictions. \\n\\nAI operates using advanced algorithms that process large datasets to identify patterns and insights, enabling the system to learn and adapt without requiring explicit programming for every scenario. The unique capability of AI to emulate and enhance human decision-making processes distinguishes it from traditional programming.\"\n}",
+      "context": "Node 1: Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır? Yapay zeka, büyük ölçekli verileri akıllı algoritmalar yinelemeli işlemleme ile birleştirerek çalışır. Bu süreçte, işlemlenen verilere ait desen veya özellikler yapay zekanın otomatik olarak öğrenmesini sağlar. Çeşitli işlevlere sahip yapay zeka farklı yöntem teknolojiler ile birlikte çalışır. Söz konusu yöntem teknolojiler şu şekilde özetlenebilir: > Makine Öğrenimi: Yapay zeka makine öğrenimi ile analitik modeller oluşturmayı otomatikleştirerek ayrı bir programlama işlemi gerekmeden sinir ağları, istatistik, fizik yöntemlerini kullanarak verideki içgörüleri bulabiliyor.\n\nNode 7: Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?\n\nNode 0: Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir? Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler.",
+      "retrieved_nodes": [
+        {
+          "node_id": 1,
+          "content": "Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır? Yapay zeka, büyük ölçekli verileri akıllı algoritmalar yinelemeli işlemleme ile birleştirerek çalışır. Bu süreçte, işlemlenen verilere ait desen veya özellikler yapay zekanın otomatik olarak öğrenmesini sağlar. Çeşitli işlevlere sahip yapay zeka farklı yöntem teknolojiler ile birlikte çalışır. Söz konusu yöntem teknolojiler şu şekilde özetlenebilir: > Makine Öğrenimi: Yapay zeka makine öğrenimi ile analitik modeller oluşturmayı otomatikleştirerek ayrı bir programlama işlemi gerekmeden sinir ağları, istatistik, fizik yöntemlerini kullanarak verideki içgörüleri bulabiliyor.",
+          "score": 0.6821680068969727
+        },
+        {
+          "node_id": 7,
+          "content": "Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?",
+          "score": 0.6905310153961182
+        },
+        {
+          "node_id": 0,
+          "content": "Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir? Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler.",
+          "score": 0.7078711986541748
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.56,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.64,
+        "completeness": 1.0,
+        "hallucination_score": 0.02
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer includes both accurate information from the context and extrapolated details that are not present, thereby affecting the ultimate faithfulness to the original information.",
+        "answer_relevancy": "The answer is fully relevant to the question, explaining both computer programming and artificial intelligence comprehensively.",
+        "context_precision": "The context provides substantial information on AI but lacks specific and clear details about computer programming, which leads to incomplete coverage.",
+        "completeness": "The answer thoroughly covers all crucial aspects of both programming and AI, making it comprehensive.",
+        "hallucination_score": "The provided information is factually accurate with no hallucinations or unverifiable data."
+      },
+      "overall_score": 0.7070000000000001,
+      "timestamp": "2025-06-29T21:52:04.529874",
+      "response_time": 5.6898598,
+      "token_usage": {
+        "prompt_tokens": 415,
+        "completion_tokens": 222
+      },
+      "run_count": 10,
+      "score_variance": 0.06037843618010948,
+      "individual_scores": [
+        0.68,
+        0.66,
+        0.66,
+        0.74,
+        0.82,
+        0.74,
+        0.78,
+        0.63,
+        0.68,
+        0.68
+      ]
+    },
+    {
+      "method_name": "Basic_GraphRAG",
+      "question": "What is computer programming and artificial intelligence?",
+      "answer": "{\n  \"answer\": \"Computer programming is the process of designing and writing instructions for computers to execute. This discipline involves creating software applications and solutions for various problems, utilizing a variety of programming languages such as Python, Java, and C++. The primary goal of programming is to translate human ideas and logic into a form that machines can understand and execute. There are numerous resources available for learning programming, including university courses, technical textbooks like Donald Knuth's 'Art of Computer Programming', and practical guides such as Jon Bentley's 'Programming Pearls'. Programming can be approached in multiple styles, with specific methodologies aimed at ensuring that code is not only functional but also readable and maintainable for human programmers. \\n\\nArtificial intelligence (AI), on the other hand, refers to the simulation of human intelligence processes by machines, particularly computer systems. This encompasses various technologies and methods, including machine learning, neural networks, deep learning, and cognitive computing. AI systems are designed to learn from large datasets and improve over time without human intervention, enabling them to perform tasks traditionally associated with human intelligence, such as understanding natural language, recognizing images, and making predictions based on data. The concept of AI emerged in 1956, and its applications have expanded significantly over the years, leading to advanced systems capable of complex reasoning and problem-solving. AI operates through algorithms that analyze data patterns, enabling machines to process information intelligently and adapt to new inputs.\"\n}",
+      "context": "Node 58: Many designed university courses computer science, software engineering, related disciplines. Donald Knuth's Art Computer Programming (1968 later), presented hundreds computational algorithms analysis. Elements Programming Style (1974), Brian W. Kernighan P. J. Plauger, concerned programming style, idea programs written satisfy compiler human readers. Jon Bentley's Programming Pearls (1986) offered practical advice art craft programming professional academic contexts. Texts specifically designed students included Doug Cooper Michael Clancy's Oh Pascal! (1982), Alfred Aho's Data Structures Algorithms (1983), Daniel Watt's Learning Logo (1983). Technical publishers personal computers became mass-market products, thousands trade books magazines sought teach professional, hobbyist, casual users write computer programs.\n\nNode 2: > Yapay Sinir Ağı: Yapay zeka sayesinde harici girişlere yanıt vererek bilgilerin işlenmesini aralarında bilgi aktarımı olan birimlerden oluşan yapay sinir ağlarını içerir. Bu yöntem ile yapay zeka birimler arasındaki bağlantıları bularak birden çok geçiş ile tanımlanan verilerden anlam çıkarabiliyor. > Derin Öğrenme Teknolojisi: Yapay zeka bu yöntem ile pek çok veri birimine ait karmaşık modeli öğrenmek için gelişmiş hesaplama eğitim tekniklerinden yararlanır. Bu süreçte, çok sayıda işlem birimi katmanı ile büyük sinir ağlarını kullanır. > Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır.\n\nNode 1: Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır? Yapay zeka, büyük ölçekli verileri akıllı algoritmalar yinelemeli işlemleme ile birleştirerek çalışır. Bu süreçte, işlemlenen verilere ait desen veya özellikler yapay zekanın otomatik olarak öğrenmesini sağlar. Çeşitli işlevlere sahip yapay zeka farklı yöntem teknolojiler ile birlikte çalışır. Söz konusu yöntem teknolojiler şu şekilde özetlenebilir: > Makine Öğrenimi: Yapay zeka makine öğrenimi ile analitik modeller oluşturmayı otomatikleştirerek ayrı bir programlama işlemi gerekmeden sinir ağları, istatistik, fizik yöntemlerini kullanarak verideki içgörüleri bulabiliyor.\n\nNode 7: Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?\n\nNode 0: Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir? Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler.",
+      "retrieved_nodes": [
+        {
+          "node_id": 58,
+          "content": "Many designed university courses computer science, software engineering, related disciplines. Donald Knuth's Art Computer Programming (1968 later), presented hundreds computational algorithms analysis. Elements Programming Style (1974), Brian W. Kernighan P. J. Plauger, concerned programming style, idea programs written satisfy compiler human readers. Jon Bentley's Programming Pearls (1986) offered practical advice art craft programming professional academic contexts. Texts specifically designed students included Doug Cooper Michael Clancy's Oh Pascal! (1982), Alfred Aho's Data Structures Algorithms (1983), Daniel Watt's Learning Logo (1983). Technical publishers personal computers became mass-market products, thousands trade books magazines sought teach professional, hobbyist, casual users write computer programs.",
+          "score": 0.6693320274353027
+        },
+        {
+          "node_id": 2,
+          "content": "> Yapay Sinir Ağı: Yapay zeka sayesinde harici girişlere yanıt vererek bilgilerin işlenmesini aralarında bilgi aktarımı olan birimlerden oluşan yapay sinir ağlarını içerir. Bu yöntem ile yapay zeka birimler arasındaki bağlantıları bularak birden çok geçiş ile tanımlanan verilerden anlam çıkarabiliyor. > Derin Öğrenme Teknolojisi: Yapay zeka bu yöntem ile pek çok veri birimine ait karmaşık modeli öğrenmek için gelişmiş hesaplama eğitim tekniklerinden yararlanır. Bu süreçte, çok sayıda işlem birimi katmanı ile büyük sinir ağlarını kullanır. > Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır.",
+          "score": 0.6800520420074463
+        },
+        {
+          "node_id": 1,
+          "content": "Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır? Yapay zeka, büyük ölçekli verileri akıllı algoritmalar yinelemeli işlemleme ile birleştirerek çalışır. Bu süreçte, işlemlenen verilere ait desen veya özellikler yapay zekanın otomatik olarak öğrenmesini sağlar. Çeşitli işlevlere sahip yapay zeka farklı yöntem teknolojiler ile birlikte çalışır. Söz konusu yöntem teknolojiler şu şekilde özetlenebilir: > Makine Öğrenimi: Yapay zeka makine öğrenimi ile analitik modeller oluşturmayı otomatikleştirerek ayrı bir programlama işlemi gerekmeden sinir ağları, istatistik, fizik yöntemlerini kullanarak verideki içgörüleri bulabiliyor.",
+          "score": 0.6821680068969727
+        },
+        {
+          "node_id": 7,
+          "content": "Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?",
+          "score": 0.6905310153961182
+        },
+        {
+          "node_id": 0,
+          "content": "Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir? Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler.",
+          "score": 0.7078711986541748
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.76,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.6,
+        "completeness": 1.0,
+        "hallucination_score": 0.1
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer is mostly faithful to the provided context but includes minor extrapolations and additional details that aren't explicitly mentioned in the text.",
+        "answer_relevancy": "The answer provides a thorough and complete explanation that directly addresses both parts of the question.",
+        "context_precision": "The retrieved context contains relevant information about artificial intelligence but lacks a sufficient explanation of computer programming.",
+        "completeness": "The answer comprehensively addresses the full scope of both topics, providing clear definitions and explanations.",
+        "hallucination_score": "The answer contains no hallucinated information, as all details provided are verifiable and consistent with the context."
+      },
+      "overall_score": 0.7328,
+      "timestamp": "2025-06-29T21:58:04.557661",
+      "response_time": 5.8279055,
+      "token_usage": {
+        "prompt_tokens": 654,
+        "completion_tokens": 237
+      },
+      "run_count": 10,
+      "score_variance": 0.0358788083538025,
+      "individual_scores": [
+        0.74,
+        0.76,
+        0.738,
+        0.68,
+        0.76,
+        0.76,
+        0.72,
+        0.66,
+        0.76,
+        0.75
+      ]
+    }
+  ],
+  "judge_evaluation": {
+    "model_results": [
+      {
+        "model_name": "PageRank_GraphRAG",
+        "score": 9,
+        "justification": "The PageRank_GraphRAG output provides a thorough and coherent explanation of both computer programming and artificial intelligence. It covers essential concepts and historical context, ensuring the reader understands the evolution and significance of both fields. The level of detail and the connection made between programming and AI demonstrates a high level of completeness and explainability."
+      },
+      {
+        "model_name": "KNN_GraphRAG",
+        "score": 8,
+        "justification": "The KNN_GraphRAG response delivers a comprehensive overview of computer programming and artificial intelligence, effectively explaining the essentials of each field. While it includes historical context, the depth of information is slightly less extensive than the PageRank_GraphRAG output, and it could be improved by integrating more details about the historical evolution and applications of AI."
+      },
+      {
+        "model_name": "Basic_GraphRAG",
+        "score": 7,
+        "justification": "The Basic_GraphRAG provides a clear and concise definition of programming and AI, but lacks some depth compared to the other outputs. While it mentions relevant concepts and methodologies, the explanation appears a bit more superficial without the rich context or historical angle provided in the other answers. This affects the perceived completeness and relevance, particularly for readers seeking detailed insight."
+      }
+    ],
+    "overall_comparison": "The PageRank_GraphRAG performed best due to its comprehensive nature and rich historical context, making it the most informative choice. The KNN_GraphRAG follows closely with good detail but slightly less depth. The Basic_GraphRAG, while clear, lacks the same level of detail and engagement, making it the least effective of the three outputs."
+  },
+  "best_method": "Basic_GraphRAG",
+  "timestamp": "2025-06-29T22:03:52.823778",
+  "statistical_analysis": {
+    "score_statistics": {
+      "mean": 0.7149333333333334,
+      "median": 0.7070000000000001,
+      "std_dev": 0.015505267922010641,
+      "min": 0.7050000000000001,
+      "max": 0.7328
+    },
+    "response_time_statistics": {
+      "mean": 5.831227833333333,
+      "median": 5.8279055,
+      "std_dev": 0.1430581367022633,
+      "min": 5.6898598,
+      "max": 5.975918200000001
+    },
+    "method_rankings": {
+      "PageRank_GraphRAG": 0.7050000000000001,
+      "KNN_GraphRAG": 0.7070000000000001,
+      "Basic_GraphRAG": 0.7328
+    }
+  }
+}

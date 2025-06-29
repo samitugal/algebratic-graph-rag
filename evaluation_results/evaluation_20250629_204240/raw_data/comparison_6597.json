@@ -1,0 +1,277 @@
+{
+  "question": "Explain computer programming and artificial intelligence",
+  "results": [
+    {
+      "method_name": "PageRank_GraphRAG",
+      "question": "Explain computer programming and artificial intelligence",
+      "answer": "{\"answer\":\"Computer programming and artificial intelligence (AI) are two interrelated fields in the realm of technology. \\n\\n### Computer Programming \\nComputer programming is the process of creating a set of instructions for computers to follow, enabling them to perform specific tasks or solve problems. This process involves writing code in various programming languages (such as Python, Java, C++, etc.) to create software applications, algorithms, and systems that can perform a desired function. Programming encompasses:\\n- **Syntax and Semantics**: Each programming language has its own syntax (rules about structure) and semantics (meaning of commands). \\n- **Algorithms**: Programmers design algorithms, which are step-by-step procedures or formulas for solving a problem. \\n- **Debugging and Testing**: After writing code, programmers must debug (identify and fix errors) and test their programs to ensure they function correctly.\\n- **Software Development Lifecycles**: Programming is often part of a larger process that includes planning, development, deployment, and maintenance of software.\\nIn essence, programming enables the communication between human intent and computer function, transforming ideas into executable software.\\n\\n### Artificial Intelligence \\nArtificial intelligence, often considered a subset of computer programming, refers to systems that mimic human intelligence to perform specific tasks. It can learn from data, adapt to new inputs, and even improve over time without explicit reprogramming. Here are key aspects of AI:\\n- **Definition and Attributes**: AI systems can observe situations and process the data based on pre-defined parameters to respond accordingly. One of their defining features is the ability to replicate human cognitive functions, enabling them to perform tasks that typically require human intelligence.\\n- **Historical Context**: The term 'artificial intelligence' was coined in 1956, marking the beginning of AI research. Initially focused on symbolic problem-solving methods, AI has evolved significantly with advancements in data processing, algorithms, and machine learning, gaining popularity and practical applications today.\\n- **Working Mechanism**: Modern AI predominantly relies on deep learning, a subfield of machine learning, where large neural networks with many layers process data. It combines data inputs and intelligent algorithms to recognize patterns, make decisions, and provide feedback in a human-like manner. AI can handle various tasks such as natural language processing, image recognition, and predictive analytics.\\n- **Machine Learning and Neural Networks**: Machine learning enables AI systems to build analytical models without explicit programming. This involves training on data to identify insights and patterns, which can be achieved through artificial neural networks that simulate human brain functions.\\n- **Importance and Applications**: AI allows companies to effectively utilize large volumes of data, enhancing decision-making and operational efficiency across sectors, from customer service to supply chain management. It is crucial for understanding user interactions and optimizing business processes.\\nIn summary, while programming is about building the underlying systems and software, AI takes that foundation and builds on it, enabling computers to simulate aspects of human intelligence.\"}",
+      "context": "Node 7: Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?\n\nNode 2: > Yapay Sinir Ağı: Yapay zeka sayesinde harici girişlere yanıt vererek bilgilerin işlenmesini aralarında bilgi aktarımı olan birimlerden oluşan yapay sinir ağlarını içerir. Bu yöntem ile yapay zeka birimler arasındaki bağlantıları bularak birden çok geçiş ile tanımlanan verilerden anlam çıkarabiliyor. > Derin Öğrenme Teknolojisi: Yapay zeka bu yöntem ile pek çok veri birimine ait karmaşık modeli öğrenmek için gelişmiş hesaplama eğitim tekniklerinden yararlanır. Bu süreçte, çok sayıda işlem birimi katmanı ile büyük sinir ağlarını kullanır. > Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır.\n\nNode 1: Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır? Yapay zeka, büyük ölçekli verileri akıllı algoritmalar yinelemeli işlemleme ile birleştirerek çalışır. Bu süreçte, işlemlenen verilere ait desen veya özellikler yapay zekanın otomatik olarak öğrenmesini sağlar. Çeşitli işlevlere sahip yapay zeka farklı yöntem teknolojiler ile birlikte çalışır. Söz konusu yöntem teknolojiler şu şekilde özetlenebilir: > Makine Öğrenimi: Yapay zeka makine öğrenimi ile analitik modeller oluşturmayı otomatikleştirerek ayrı bir programlama işlemi gerekmeden sinir ağları, istatistik, fizik yöntemlerini kullanarak verideki içgörüleri bulabiliyor.\n\nNode 3: > Grafik İşlem Birimleri: Yapay zekanın yinelemeli işlem yapabilmesi için ihtiyaç duyduğu hesaplama gücünü sağlayan grafik işlem birimleri sinir ağlarının eğitilmesini sağlar. Yapay Zeka Neden Önemli? Günümüzde şirketler için çok daha önemli bir role sahip olan verilerden yapay zeka sayesinde en iyi şekilde yararlanılması mümkün oluyor. Yapay zeka, daha fazla daha derin veriyi birçok katmana sahip sinir ağlarını kullanarak analiz eder. Ayrıca, söz konusu derin sinir ağları sayesinde yapay zeka ile ortaya konulan analiz sonuçlarının geçerliliği güvenilirliği oldukça güçlü oluyor. Algoritmaları da kendi kendine öğrendiği için benzersiz verilerin değerlendirilmesi yapay zeka ile kolayca gerçekleştirilebilir ayrıca doğal dil işleme (NLP), bilgisayarların doğal insan dilini anlamasına üretmesine olanak tanıyan bir yapay zeka dalıdır. İnsan dilini anlamak, yorumlamak, analiz etmek sentezlemek için bilgisayar programları kullanır. Yapay Zeka Şirketlere Nasıl Katkı Sağlar? Yapay zeka sahip olduğu işlevleri kullanım alanlarıyla birlikte sektörel olarak farklılık gösterse de şirketlere sunduğu belirli avantajlar bulunur.\n\nNode 9: > Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır. > Grafik İşlem Birimleri: Yapay zekanın yinelemeli işlem yapabilmesi için ihtiyaç duyduğu hesaplama gücünü sağlayan grafik işlem birimleri sinir ağlarının eğitilmesini sağlar. Yapay Zeka Neden Önemli? Günümüzde şirketler için çok daha önemli bir role sahip olan verilerden yapay zeka sayesinde en iyi şekilde yararlanılması mümkün oluyor. Yapay zeka, daha fazla daha derin veriyi birçok katmana sahip sinir ağlarını kullanarak analiz eder. Ayrıca, söz konusu derin sinir ağları sayesinde yapay zeka ile ortaya konulan analiz sonuçlarının geçerliliği güvenilirliği oldukça güçlü oluyor.\n\nNode 6: Başarılı bir yapay zeka yönetimi için şirketlerin doğru araçlar ile süreçleri yönetim stratejilerini uygulaması gerekiyor. GTech Büyük Veri İleri Analitik uzman ekibinin yapay sinir ağları uygulamalarına yönelik farklı algoritmalar farklı veri setleri ile oluşturulan modeller hakkında ayrıntılı bilgi için Yapay Sinir Ağları Uygulamaları – 1, Yapay Sinir Ağları Uygulamaları – 2 Yapay Sinir Ağları Uygulamaları – 3 yazı dizisini inceleyebilirsiniz. Ayrıca, şirketinizin iş süreçleri için yararlanabileceğiniz yapay zeka çözüm hizmetleri hakkında bilgi almak için bizimle iletişime geçebilirsiniz. Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir?",
+      "retrieved_nodes": [
+        {
+          "node_id": 7,
+          "content": "Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?",
+          "query_similarity": 0.40186337135475153,
+          "hop_distance": 1,
+          "path_weight": 0.9206584334373474,
+          "pagerank_score": 0.41458319258490867,
+          "quality_boost": 1.1205590114064254,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 2,
+          "content": "> Yapay Sinir Ağı: Yapay zeka sayesinde harici girişlere yanıt vererek bilgilerin işlenmesini aralarında bilgi aktarımı olan birimlerden oluşan yapay sinir ağlarını içerir. Bu yöntem ile yapay zeka birimler arasındaki bağlantıları bularak birden çok geçiş ile tanımlanan verilerden anlam çıkarabiliyor. > Derin Öğrenme Teknolojisi: Yapay zeka bu yöntem ile pek çok veri birimine ait karmaşık modeli öğrenmek için gelişmiş hesaplama eğitim tekniklerinden yararlanır. Bu süreçte, çok sayıda işlem birimi katmanı ile büyük sinir ağlarını kullanır. > Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır.",
+          "query_similarity": 0.37924214652681243,
+          "hop_distance": 1,
+          "path_weight": 0.871525889635086,
+          "pagerank_score": 0.36812340936972426,
+          "quality_boost": 1.1137726439580438,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 1,
+          "content": "Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır? Yapay zeka, büyük ölçekli verileri akıllı algoritmalar yinelemeli işlemleme ile birleştirerek çalışır. Bu süreçte, işlemlenen verilere ait desen veya özellikler yapay zekanın otomatik olarak öğrenmesini sağlar. Çeşitli işlevlere sahip yapay zeka farklı yöntem teknolojiler ile birlikte çalışır. Söz konusu yöntem teknolojiler şu şekilde özetlenebilir: > Makine Öğrenimi: Yapay zeka makine öğrenimi ile analitik modeller oluşturmayı otomatikleştirerek ayrı bir programlama işlemi gerekmeden sinir ağları, istatistik, fizik yöntemlerini kullanarak verideki içgörüleri bulabiliyor.",
+          "query_similarity": 0.37682810545690804,
+          "hop_distance": 1,
+          "path_weight": 0.8723021810718443,
+          "pagerank_score": 0.3658678996902918,
+          "quality_boost": 1.1130484316370723,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 3,
+          "content": "> Grafik İşlem Birimleri: Yapay zekanın yinelemeli işlem yapabilmesi için ihtiyaç duyduğu hesaplama gücünü sağlayan grafik işlem birimleri sinir ağlarının eğitilmesini sağlar. Yapay Zeka Neden Önemli? Günümüzde şirketler için çok daha önemli bir role sahip olan verilerden yapay zeka sayesinde en iyi şekilde yararlanılması mümkün oluyor. Yapay zeka, daha fazla daha derin veriyi birçok katmana sahip sinir ağlarını kullanarak analiz eder. Ayrıca, söz konusu derin sinir ağları sayesinde yapay zeka ile ortaya konulan analiz sonuçlarının geçerliliği güvenilirliği oldukça güçlü oluyor. Algoritmaları da kendi kendine öğrendiği için benzersiz verilerin değerlendirilmesi yapay zeka ile kolayca gerçekleştirilebilir ayrıca doğal dil işleme (NLP), bilgisayarların doğal insan dilini anlamasına üretmesine olanak tanıyan bir yapay zeka dalıdır. İnsan dilini anlamak, yorumlamak, analiz etmek sentezlemek için bilgisayar programları kullanır. Yapay Zeka Şirketlere Nasıl Katkı Sağlar? Yapay zeka sahip olduğu işlevleri kullanım alanlarıyla birlikte sektörel olarak farklılık gösterse de şirketlere sunduğu belirli avantajlar bulunur.",
+          "query_similarity": 0.3712660971477784,
+          "hop_distance": 1,
+          "path_weight": 0.8081418573856354,
+          "pagerank_score": 0.3334535953663918,
+          "quality_boost": 1.1113798291443335,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 9,
+          "content": "> Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır. > Grafik İşlem Birimleri: Yapay zekanın yinelemeli işlem yapabilmesi için ihtiyaç duyduğu hesaplama gücünü sağlayan grafik işlem birimleri sinir ağlarının eğitilmesini sağlar. Yapay Zeka Neden Önemli? Günümüzde şirketler için çok daha önemli bir role sahip olan verilerden yapay zeka sayesinde en iyi şekilde yararlanılması mümkün oluyor. Yapay zeka, daha fazla daha derin veriyi birçok katmana sahip sinir ağlarını kullanarak analiz eder. Ayrıca, söz konusu derin sinir ağları sayesinde yapay zeka ile ortaya konulan analiz sonuçlarının geçerliliği güvenilirliği oldukça güçlü oluyor.",
+          "query_similarity": 0.35932521561875536,
+          "hop_distance": 1,
+          "path_weight": 0.8219898879528046,
+          "pagerank_score": 0.32720096501006346,
+          "quality_boost": 1.1077975646856266,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 6,
+          "content": "Başarılı bir yapay zeka yönetimi için şirketlerin doğru araçlar ile süreçleri yönetim stratejilerini uygulaması gerekiyor. GTech Büyük Veri İleri Analitik uzman ekibinin yapay sinir ağları uygulamalarına yönelik farklı algoritmalar farklı veri setleri ile oluşturulan modeller hakkında ayrıntılı bilgi için Yapay Sinir Ağları Uygulamaları – 1, Yapay Sinir Ağları Uygulamaları – 2 Yapay Sinir Ağları Uygulamaları – 3 yazı dizisini inceleyebilirsiniz. Ayrıca, şirketinizin iş süreçleri için yararlanabileceğiniz yapay zeka çözüm hizmetleri hakkında bilgi almak için bizimle iletişime geçebilirsiniz. Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir?",
+          "query_similarity": 0.33848698720595743,
+          "hop_distance": 1,
+          "path_weight": 0.8716155827045441,
+          "pagerank_score": 0.32498973142461846,
+          "quality_boost": 1.1015460961617873,
+          "relationship_type": "RELATED_TO"
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.42000000000000004,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.68,
+        "completeness": 1.0,
+        "hallucination_score": 0.02
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer diverges significantly from the context when discussing computer programming. While it does reflect some aspects of AI present in the context, it fails to maintain strict fidelity to the provided material, particularly concerning programming details.",
+        "answer_relevancy": "The answer directly addresses the question, providing thorough explanations of both computer programming and AI, demonstrating their relationship effectively.",
+        "context_precision": "The context mainly focused on AI and did not provide explicit information about computer programming. Relevant AI concepts were highlighted, but the lack of programming details diminished the precision.",
+        "completeness": "The answer effectively covers all critical components of both computer programming and AI as related to the question, conveying a comprehensive understanding.",
+        "hallucination_score": "The answer contains unverifiable detail that may not align directly with the provided context, thus introducing hallucinations that could mislead."
+      },
+      "overall_score": 0.681,
+      "timestamp": "2025-06-29T20:43:27.763194",
+      "response_time": 10.7491167,
+      "token_usage": {
+        "prompt_tokens": 854,
+        "completion_tokens": 454
+      },
+      "run_count": 10,
+      "score_variance": 0.05506561742341788,
+      "individual_scores": [
+        0.66,
+        0.68,
+        0.62,
+        0.77,
+        0.68,
+        0.68,
+        0.74,
+        0.72,
+        0.58,
+        0.68
+      ]
+    },
+    {
+      "method_name": "KNN_GraphRAG",
+      "question": "Explain computer programming and artificial intelligence",
+      "answer": "{\"answer\":\"Computer programming is the process of designing and building executable computer software to accomplish a specific task. It involves writing code in various programming languages such as Python, Java, C++, and many others. Programmers, also known as coders or software developers, use algorithms, data structures, and systems of logic to create programmatic solutions that can manage and process data, automate tasks, and run applications. Programming can vary from simple scripts that automate mundane tasks to complex systems that manage large databases, run web applications, or operate systems in various devices.\\n\\nArtificial intelligence (AI), on the other hand, is a branch of computer science that aims to create systems capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding. AI systems can be defined broadly as those that can mimic human cognitive functions such as observing situations, processing data, and providing responses based on learned experiences. \\n\\nSome core elements of AI include:\\n1. **Artificial Neural Networks (ANNs)**: These are computational models inspired by the way biological neural networks in the human brain work. ANNs process information by passing inputs through interconnected nodes, where they can learn patterns and make predictions based on training data.\\n\\n2. **Deep Learning Technology**: This is a subset of machine learning that utilizes large neural networks with many layers (deep networks) to learn complex representation of data. It is particularly effective for tasks such as image recognition, natural language processing, and speech recognition.\\n\\n3. **Cognitive Computing**: This refers to systems designed to mimic human cognitive functions, such as understanding and interpreting data, images, and sounds. These systems can provide consistent feedback and interact more naturally with users.\\n\\n4. **Advanced Algorithms**: AI employs complex algorithms that allow for faster and more efficient data analysis. These algorithms are essential for recognizing rare patterns in data, understanding complex systems, and making predictions based on large datasets.\\n\\nThe development of AI has been propelled by increased data volumes, advancements in algorithmic computation, and improved technologies. Its ability to process vast amounts of information, learn from experiences, and adapt to new inputs makes it a tool widely used across various industries, from customer service to supply chain management.\"}",
+      "context": "Node 2: > Yapay Sinir Ağı: Yapay zeka sayesinde harici girişlere yanıt vererek bilgilerin işlenmesini aralarında bilgi aktarımı olan birimlerden oluşan yapay sinir ağlarını içerir. Bu yöntem ile yapay zeka birimler arasındaki bağlantıları bularak birden çok geçiş ile tanımlanan verilerden anlam çıkarabiliyor. > Derin Öğrenme Teknolojisi: Yapay zeka bu yöntem ile pek çok veri birimine ait karmaşık modeli öğrenmek için gelişmiş hesaplama eğitim tekniklerinden yararlanır. Bu süreçte, çok sayıda işlem birimi katmanı ile büyük sinir ağlarını kullanır. > Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır.\n\nNode 7: Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?\n\nNode 0: Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir? Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler.",
+      "retrieved_nodes": [
+        {
+          "node_id": 2,
+          "content": "> Yapay Sinir Ağı: Yapay zeka sayesinde harici girişlere yanıt vererek bilgilerin işlenmesini aralarında bilgi aktarımı olan birimlerden oluşan yapay sinir ağlarını içerir. Bu yöntem ile yapay zeka birimler arasındaki bağlantıları bularak birden çok geçiş ile tanımlanan verilerden anlam çıkarabiliyor. > Derin Öğrenme Teknolojisi: Yapay zeka bu yöntem ile pek çok veri birimine ait karmaşık modeli öğrenmek için gelişmiş hesaplama eğitim tekniklerinden yararlanır. Bu süreçte, çok sayıda işlem birimi katmanı ile büyük sinir ağlarını kullanır. > Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır.",
+          "score": 0.688950777053833
+        },
+        {
+          "node_id": 7,
+          "content": "Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?",
+          "score": 0.7006862163543701
+        },
+        {
+          "node_id": 0,
+          "content": "Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir? Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler.",
+          "score": 0.7172591686248779
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.48,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.78,
+        "completeness": 1.0,
+        "hallucination_score": 0.0
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer contains some information that is consistent with the context, but it also includes additional details about computer programming and AI concepts that were not present in the provided context.",
+        "answer_relevancy": "The answer thoroughly addresses the question about computer programming and artificial intelligence, providing clear and direct explanations of both concepts.",
+        "context_precision": "The context provides substantial information about AI but lacks direct references to computer programming, which affects its precision.",
+        "completeness": "The answer is detailed and comprehensive, sufficiently covering both computer programming and artificial intelligence in an informative manner.",
+        "hallucination_score": "The answer presents only verifiable information related to computer programming and AI without any fabricated or unverifiable claims."
+      },
+      "overall_score": 0.6945,
+      "timestamp": "2025-06-29T20:50:35.286541",
+      "response_time": 7.5331708,
+      "token_usage": {
+        "prompt_tokens": 409,
+        "completion_tokens": 359
+      },
+      "run_count": 10,
+      "score_variance": 0.0608481717063052,
+      "individual_scores": [
+        0.72,
+        0.66,
+        0.66,
+        0.685,
+        0.58,
+        0.76,
+        0.66,
+        0.77,
+        0.68,
+        0.77
+      ]
+    },
+    {
+      "method_name": "Basic_GraphRAG",
+      "question": "Explain computer programming and artificial intelligence",
+      "answer": "{\"answer\":\"Computer programming is the process of designing, writing, testing, and maintaining code that a computer can execute to perform specific tasks or solve problems. It involves using programming languages, which are formal languages comprising sets of instructions that can be used to produce various kinds of output, including software applications, websites, and more. Programmers write code to implement algorithms, which are step-by-step instructions for solving a problem, and debug their code to ensure it runs as intended. The development of software typically follows a series of stages known as the software development lifecycle, which includes planning, designing, coding, testing, deployment, and maintenance.\\n\\nArtificial Intelligence (AI), on the other hand, refers to the simulation of human intelligence processes by machines, especially computer systems. AI encompasses a variety of technologies that allow machines to learn from data, recognize patterns, make decisions, and perform tasks that typically require human intelligence. This includes fields such as:\\n\\n1. **Machine Learning**: A subset of AI that enables computers to learn from data and improve their performance at tasks without being explicitly programmed. Algorithms identify patterns in data and can make predictions based on that data.\\n\\n2. **Deep Learning**: A further subset of machine learning that utilizes advanced neural networks with many layers (deep neural networks) to analyze various types of data, such as images and speech, and can provide high accuracy in tasks like image recognition and natural language processing.\\n\\n3. **Natural Language Processing (NLP)**: This area of AI focuses on the interaction between computers and humans through natural language. It involves the ability of a machine to understand, interpret, and generate human languages, enabling applications such as translation services, chatbots, and voice-activated assistants.\\n\\nAI has become increasingly significant in various sectors due to its capability to analyze large volumes of data and provide insights that can drive decision-making. Its deployment ranges from customer service automation to supply chain management, enhancing efficiency and creating value for businesses.\\n\\nThe historical development of AI dates back to 1956, when the term was first coined. The evolution of AI has progressed from symbolic problem-solving methods to more complex machine learning and deep learning techniques, allowing current AI systems to perform tasks such as speech recognition and predictive analytics effectively. Today, AI represents a confluence of advanced algorithms and computational power, including significant contributions from technologies such as Graphics Processing Units (GPUs), which provide the necessary computational strength for training neural networks. The ongoing advancements in AI contribute to its reliability and the depth of insights it can provide, continually pushing the boundaries of what machines can achieve.\"}",
+      "context": "Node 3: > Grafik İşlem Birimleri: Yapay zekanın yinelemeli işlem yapabilmesi için ihtiyaç duyduğu hesaplama gücünü sağlayan grafik işlem birimleri sinir ağlarının eğitilmesini sağlar. Yapay Zeka Neden Önemli? Günümüzde şirketler için çok daha önemli bir role sahip olan verilerden yapay zeka sayesinde en iyi şekilde yararlanılması mümkün oluyor. Yapay zeka, daha fazla daha derin veriyi birçok katmana sahip sinir ağlarını kullanarak analiz eder. Ayrıca, söz konusu derin sinir ağları sayesinde yapay zeka ile ortaya konulan analiz sonuçlarının geçerliliği güvenilirliği oldukça güçlü oluyor. Algoritmaları da kendi kendine öğrendiği için benzersiz verilerin değerlendirilmesi yapay zeka ile kolayca gerçekleştirilebilir ayrıca doğal dil işleme (NLP), bilgisayarların doğal insan dilini anlamasına üretmesine olanak tanıyan bir yapay zeka dalıdır. İnsan dilini anlamak, yorumlamak, analiz etmek sentezlemek için bilgisayar programları kullanır. Yapay Zeka Şirketlere Nasıl Katkı Sağlar? Yapay zeka sahip olduğu işlevleri kullanım alanlarıyla birlikte sektörel olarak farklılık gösterse de şirketlere sunduğu belirli avantajlar bulunur.\n\nNode 1: Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır? Yapay zeka, büyük ölçekli verileri akıllı algoritmalar yinelemeli işlemleme ile birleştirerek çalışır. Bu süreçte, işlemlenen verilere ait desen veya özellikler yapay zekanın otomatik olarak öğrenmesini sağlar. Çeşitli işlevlere sahip yapay zeka farklı yöntem teknolojiler ile birlikte çalışır. Söz konusu yöntem teknolojiler şu şekilde özetlenebilir: > Makine Öğrenimi: Yapay zeka makine öğrenimi ile analitik modeller oluşturmayı otomatikleştirerek ayrı bir programlama işlemi gerekmeden sinir ağları, istatistik, fizik yöntemlerini kullanarak verideki içgörüleri bulabiliyor.\n\nNode 2: > Yapay Sinir Ağı: Yapay zeka sayesinde harici girişlere yanıt vererek bilgilerin işlenmesini aralarında bilgi aktarımı olan birimlerden oluşan yapay sinir ağlarını içerir. Bu yöntem ile yapay zeka birimler arasındaki bağlantıları bularak birden çok geçiş ile tanımlanan verilerden anlam çıkarabiliyor. > Derin Öğrenme Teknolojisi: Yapay zeka bu yöntem ile pek çok veri birimine ait karmaşık modeli öğrenmek için gelişmiş hesaplama eğitim tekniklerinden yararlanır. Bu süreçte, çok sayıda işlem birimi katmanı ile büyük sinir ağlarını kullanır. > Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır.\n\nNode 7: Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?\n\nNode 0: Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir? Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler.",
+      "retrieved_nodes": [
+        {
+          "node_id": 3,
+          "content": "> Grafik İşlem Birimleri: Yapay zekanın yinelemeli işlem yapabilmesi için ihtiyaç duyduğu hesaplama gücünü sağlayan grafik işlem birimleri sinir ağlarının eğitilmesini sağlar. Yapay Zeka Neden Önemli? Günümüzde şirketler için çok daha önemli bir role sahip olan verilerden yapay zeka sayesinde en iyi şekilde yararlanılması mümkün oluyor. Yapay zeka, daha fazla daha derin veriyi birçok katmana sahip sinir ağlarını kullanarak analiz eder. Ayrıca, söz konusu derin sinir ağları sayesinde yapay zeka ile ortaya konulan analiz sonuçlarının geçerliliği güvenilirliği oldukça güçlü oluyor. Algoritmaları da kendi kendine öğrendiği için benzersiz verilerin değerlendirilmesi yapay zeka ile kolayca gerçekleştirilebilir ayrıca doğal dil işleme (NLP), bilgisayarların doğal insan dilini anlamasına üretmesine olanak tanıyan bir yapay zeka dalıdır. İnsan dilini anlamak, yorumlamak, analiz etmek sentezlemek için bilgisayar programları kullanır. Yapay Zeka Şirketlere Nasıl Katkı Sağlar? Yapay zeka sahip olduğu işlevleri kullanım alanlarıyla birlikte sektörel olarak farklılık gösterse de şirketlere sunduğu belirli avantajlar bulunur.",
+          "score": 0.6869781017303467
+        },
+        {
+          "node_id": 1,
+          "content": "Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır? Yapay zeka, büyük ölçekli verileri akıllı algoritmalar yinelemeli işlemleme ile birleştirerek çalışır. Bu süreçte, işlemlenen verilere ait desen veya özellikler yapay zekanın otomatik olarak öğrenmesini sağlar. Çeşitli işlevlere sahip yapay zeka farklı yöntem teknolojiler ile birlikte çalışır. Söz konusu yöntem teknolojiler şu şekilde özetlenebilir: > Makine Öğrenimi: Yapay zeka makine öğrenimi ile analitik modeller oluşturmayı otomatikleştirerek ayrı bir programlama işlemi gerekmeden sinir ağları, istatistik, fizik yöntemlerini kullanarak verideki içgörüleri bulabiliyor.",
+          "score": 0.6883697509765625
+        },
+        {
+          "node_id": 2,
+          "content": "> Yapay Sinir Ağı: Yapay zeka sayesinde harici girişlere yanıt vererek bilgilerin işlenmesini aralarında bilgi aktarımı olan birimlerden oluşan yapay sinir ağlarını içerir. Bu yöntem ile yapay zeka birimler arasındaki bağlantıları bularak birden çok geçiş ile tanımlanan verilerden anlam çıkarabiliyor. > Derin Öğrenme Teknolojisi: Yapay zeka bu yöntem ile pek çok veri birimine ait karmaşık modeli öğrenmek için gelişmiş hesaplama eğitim tekniklerinden yararlanır. Bu süreçte, çok sayıda işlem birimi katmanı ile büyük sinir ağlarını kullanır. > Bilişsel Hesaplama: Bu sistem yapay zekanın insan benzeri bir etkileşimi makinelere aktarılmasını sağlar. Bilişsel hesaplama ile yapay zekanın görüntüleri, konuşmaları, verileri yorumlama ardından bunlara tutarlı geri bildirimler vermesi sağlanır. > İleri Algoritma: Bu sistem yapay zekanın daha fazla veriyi daha hızlı birçok seviyede analiz etmesini sağlıyor. Ayrıca, ileri algoritma karmaşık sistemleri anlamak, nadir yaşanan senaryoları tanımlamak optimize etmek için kullanılır.",
+          "score": 0.688950777053833
+        },
+        {
+          "node_id": 7,
+          "content": "Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler. Yapay Zekanın Tarihi 1956’da ortaya atılan yapay zeka terimi veri hacimlerinin artması, algoritma hesaplamaların gelişmesi gibi bilim teknoloji alanındaki ilerlemeler ile günümüzde daha popüler bir hale geldi. İlk dönemlerinde, yapay zekaya yönelik çalışmalar problem çözme sembolik yöntemler gibi konular ile ilişkilidir. Sonraki dönemlerde ise makine öğrenmesi ile gelişen yapay zeka günümüzde konuşmayı, görüntüleri verileri tanıma, tahminlerde bulunma gibi işlemleri yerine getirebilmesini sağlayan derin öğrenme ile gelişmeye devam ediyor. Yapay Zeka Nasıl Çalışır?",
+          "score": 0.7006862163543701
+        },
+        {
+          "node_id": 0,
+          "content": "Yapay zeka, makinelerin insan benzeri görevleri gerçekleştirmesini, deneyiminden öğrenmesini, yeni girdilere uyum sağlamasını mümkün kılan sistemlerdir. Yapay zeka ile temelde insan yetkinliklerinin geliştirilmesi bunlara katkı sağlanması amaçlanır. Şirketler ise yapay zekayı sektöre de bağlı olarak, müşteri hizmetlerinden tedarik zinciri yönetimine çeşitli alanlarda kullanıyor. GTech olarak bu yazımızda genel hatlarıyla yapay zeka sistemini açıklayarak şirketlere sağladığı katkılardan söz ettik. Yapay Zeka Nedir? Yapay zeka, en basit şekilde belirli görevleri yerine getirmek için insan zekasını taklit eden topladıkları bilgileri yineleyerek kendilerini geliştirebilen sistemler olarak tanımlanır. Yapay zekayı günümüz teknoloji sistemlerinden ayıran en önemli özellik insan zekasını taklit edebilmesidir. Bu sistem, var olan durumları gözlemleyerek daha önceden belirlenen parametreler doğrultusunda ilgili durumu işler buna yönelik bir tepki verir. Bu süreçte, yapay zeka duruma ilişkin verileri hızlı, yinelemeli akıllı algoritmalarla birleştirilerek işler.",
+          "score": 0.7172591686248779
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.42000000000000004,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.6,
+        "completeness": 1.0,
+        "hallucination_score": 0.04
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer contains significant information not directly supported by the provided context, especially regarding software development processes and details about programming. While relevant to the topic of AI, it elaborates on aspects not verified by the provided context.",
+        "answer_relevancy": "The answer directly addresses the question regarding computer programming and artificial intelligence, providing comprehensive definitions and descriptions relevant to both topics.",
+        "context_precision": "The context provides useful information about artificial intelligence but fails to deliver specific details related to computer programming, which limits its overall precision for the task.",
+        "completeness": "The answer thoroughly covers both computer programming and artificial intelligence, ensuring no aspect of the question is left unanswered.",
+        "hallucination_score": "The response contains no hallucinated information; all statements made are accurate and align with established knowledge in the field."
+      },
+      "overall_score": 0.651,
+      "timestamp": "2025-06-29T20:57:06.672885",
+      "response_time": 8.7340967,
+      "token_usage": {
+        "prompt_tokens": 701,
+        "completion_tokens": 422
+      },
+      "run_count": 10,
+      "score_variance": 0.05526702854726716,
+      "individual_scores": [
+        0.66,
+        0.56,
+        0.61,
+        0.69,
+        0.66,
+        0.62,
+        0.7,
+        0.68,
+        0.59,
+        0.74
+      ]
+    }
+  ],
+  "judge_evaluation": {
+    "model_results": [
+      {
+        "model_name": "PageRank_GraphRAG",
+        "score": 9,
+        "justification": "This response provides a thorough and well-structured explanation of both computer programming and artificial intelligence. It covers key aspects of programming, including syntax, algorithms, debugging, and software lifecycles, as well as detailed information on AI, historical context, and applications. The clarity and comprehensiveness make it easy to understand."
+      },
+      {
+        "model_name": "KNN_GraphRAG",
+        "score": 8,
+        "justification": "This answer effectively describes the fundamentals of computer programming and artificial intelligence, including key technologies like neural networks and deep learning. However, it lacks some depth in historical context and the details surrounding the evolution of AI. Overall, it is very relevant and fairly complete, but slightly less detailed than the best output."
+      },
+      {
+        "model_name": "Basic_GraphRAG",
+        "score": 7,
+        "justification": "This output successfully explains the basics of computer programming and AI, including important concepts such as machine learning and natural language processing. However, while it contains substantial information, it appears a bit less comprehensive in covering the nuances of AI's development and the breadth of applications, making it slightly less informative than the leading answers."
+      }
+    ],
+    "overall_comparison": "The PageRank_GraphRAG model performed the best, offering a comprehensive and well-structured overview of both topics with rich detail and clarity. Its strengths lie in its thorough coverage and explanation of complex concepts, which make it very explainable. The KNN_GraphRAG model, while also strong, fell short on historical context and detail in AI's evolution. The Basic_GraphRAG model provided a good overview but lacked the depth that would allow for a complete understanding of the topics, making it slightly less effective than the KNN output."
+  },
+  "best_method": "KNN_GraphRAG",
+  "timestamp": "2025-06-29T21:03:07.464073",
+  "statistical_analysis": {
+    "score_statistics": {
+      "mean": 0.6755,
+      "median": 0.681,
+      "std_dev": 0.022265444078212314,
+      "min": 0.651,
+      "max": 0.6945
+    },
+    "response_time_statistics": {
+      "mean": 9.0054614,
+      "median": 8.7340967,
+      "std_dev": 1.6250557246557025,
+      "min": 7.5331708,
+      "max": 10.7491167
+    },
+    "method_rankings": {
+      "PageRank_GraphRAG": 0.681,
+      "KNN_GraphRAG": 0.6945,
+      "Basic_GraphRAG": 0.651
+    }
+  }
+}

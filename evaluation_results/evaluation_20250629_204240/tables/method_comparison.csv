@@ -1,0 +1,6 @@
+Question,PageRank_GraphRAG,KNN_GraphRAG,Basic_GraphRAG,Best_Method
+Explain computer programming and artificial intell...,0.681,0.695,0.651,KNN_GraphRAG
+What is object-oriented programming?...,0.725,0.815,0.818,Basic_GraphRAG
+Tell me about Turkey and Izmir...,0.727,0.786,0.738,KNN_GraphRAG
+What is computer programming and artificial intell...,0.705,0.707,0.733,Basic_GraphRAG
+Give me the information about Object-Oriented Prog...,0.786,0.754,0.729,PageRank_GraphRAG
