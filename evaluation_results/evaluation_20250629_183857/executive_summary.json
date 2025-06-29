@@ -1,0 +1,44 @@
+{
+  "experiment_summary": {
+    "total_questions": 5,
+    "methods_evaluated": [
+      "KNN_GraphRAG",
+      "Basic_GraphRAG",
+      "PageRank_GraphRAG"
+    ],
+    "experiment_directory": "evaluation_results/evaluation_20250629_183857",
+    "timestamp": "2025-06-29T18:50:12.017794"
+  },
+  "key_findings": {
+    "best_method_overall": "KNN_GraphRAG",
+    "highest_average_score": "KNN_GraphRAG",
+    "win_rates": {
+      "KNN_GraphRAG": {
+        "wins": 3,
+        "total": 5,
+        "percentage": 60.0
+      },
+      "Basic_GraphRAG": {
+        "wins": 0,
+        "total": 5,
+        "percentage": 0.0
+      },
+      "PageRank_GraphRAG": {
+        "wins": 2,
+        "total": 5,
+        "percentage": 40.0
+      }
+    },
+    "average_scores": {
+      "KNN_GraphRAG": 0.762,
+      "Basic_GraphRAG": 0.6940000000000001,
+      "PageRank_GraphRAG": 0.754
+    }
+  },
+  "statistical_significance": "Detailed statistical tests available in statistical_analysis/ folder",
+  "reproducibility": {
+    "all_raw_data": "Available in raw_data/ folder",
+    "processing_scripts": "Available in main evaluation pipeline",
+    "visualizations": "Available in visualizations/ folder"
+  }
+}

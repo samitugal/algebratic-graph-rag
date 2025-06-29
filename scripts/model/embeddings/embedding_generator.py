@@ -122,7 +122,7 @@ class ChunkLinker:
             np.linalg.norm(embedding1) * np.linalg.norm(embedding2)
         )
 
-    def get_chunk_links(self, threshold: float = 0.75):
+    def get_chunk_links(self, threshold: float = 0.73):
         links = []
         for i, embedding in enumerate(self.embeddings):
             for j in range(i + 1, len(self.embeddings)):
@@ -203,7 +203,7 @@ class HierarchicalSummarizer:
         self.parent_child_relations = []
 
     def create_hierarchical_summaries(
-        self, initial_summaries: list[dict], similarity_threshold: float = 0.75
+        self, initial_summaries: list[dict], similarity_threshold: float = 0.73
     ):
         current_level = 1
         current_summaries = initial_summaries.copy()

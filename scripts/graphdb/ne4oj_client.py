@@ -366,7 +366,7 @@ class Neo4jClient:
                 WHERE hop_distance <= $k_hops AND connected.id <> $node_id
                 WITH connected.id as node_id, connected.content as content, connected.embedding as embedding,
                      hop_distance, 
-                     reduce(total = 1.0, rel in rels | total * coalesce(rel.weight, 1.0)) as path_weight_product,
+                     reduce(total = 1.0, rel in rels | total * (0.90 * coalesce(rel.weight, 1.0) + 0.10)) as path_weight_product,
                      head([rel in rels | type(rel)]) as relationship_type
                 WITH node_id, content, embedding, 
                      min(hop_distance) as min_hop_distance,

@@ -21,19 +21,20 @@ class GraphSearcher:
             for result in knn_results
         ]
 
-    def search_graph_with_embeddings(self, query: str, k_hops: int = 2, top_k: int = 5):
-        """PageRank-based search with distance penalty"""
+    def search_graph_with_embeddings(self, query: str, k_hops: int = 3, top_k: int = 6):
+        """PageRank-based search with optimized single-seed strategy"""
 
         query_embedding = self.embedding_generator.generate_embeddings_from_text(query)
 
+        # Optimized single-seed strategy with quality boost
         target_nodes = self.db_client.knn_search(query_embedding, k=1)
 
         if not target_nodes:
-            print("No target node found!")
+            print("No target nodes found!")
             return []
 
         start_node_id = target_nodes[0]["id"]
-        print(f"Starting PageRank from node: {start_node_id}")
+        print(f"Starting optimized PageRank from node: {start_node_id}")
 
         traversal_nodes = self.db_client.k_hop_traversal_with_content(
             start_node_id, k_hops
@@ -54,7 +55,9 @@ class GraphSearcher:
                 hop_distance = node.get("hop_distance", 1)
                 path_weight = node.get("path_weight", 1.0)
 
-                final_score = similarity * path_weight
+                # Simplified enhanced scoring: Focus on quality over complexity
+                quality_boost = 1.0 + min(similarity * 0.3, 0.3)  # Max 30% boost
+                final_score = similarity * path_weight * quality_boost
 
                 enriched_nodes.append(
                     {
@@ -64,9 +67,15 @@ class GraphSearcher:
                         "hop_distance": hop_distance,
                         "path_weight": path_weight,
                         "pagerank_score": final_score,
+                        "quality_boost": quality_boost,
                         "relationship_type": node.get("relationship_type", "unknown"),
                     }
                 )
+
+        # Conservative re-ranking: Only boost very high similarity nodes
+        for node in enriched_nodes:
+            if node["query_similarity"] > 0.75:  # Higher threshold for boost
+                node["pagerank_score"] *= 1.1
 
         enriched_nodes.sort(key=lambda x: x["pagerank_score"], reverse=True)
         top_nodes = enriched_nodes[:top_k]

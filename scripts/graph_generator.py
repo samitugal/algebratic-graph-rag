@@ -12,9 +12,13 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 from dotenv import load_dotenv
 
 from scripts.graphdb.ne4oj_client import Neo4jClient
-from scripts.model.embeddings import (ChunkLinker, EmbeddingGenerator,
-                                      HierarchicalSummarizer, SubgraphBuilder,
-                                      SubgraphSummarizer)
+from scripts.model.embeddings import (
+    ChunkLinker,
+    EmbeddingGenerator,
+    HierarchicalSummarizer,
+    SubgraphBuilder,
+    SubgraphSummarizer,
+)
 from scripts.model.language_models import SimpleSummarizer
 
 load_dotenv()
@@ -190,3 +194,7 @@ def generate_graph(
         "high_similarity_connections": high_similarity,
         "node_centrality": centrality,
     }
+
+
+if __name__ == "__main__":
+    generate_graph()

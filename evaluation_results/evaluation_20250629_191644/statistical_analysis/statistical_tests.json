@@ -1,0 +1,18 @@
+{
+  "sample_sizes": {
+    "PageRank_GraphRAG": 5,
+    "KNN_GraphRAG": 5,
+    "Basic_GraphRAG": 5
+  },
+  "means": {
+    "PageRank_GraphRAG": 0.705,
+    "KNN_GraphRAG": 0.7506666666666667,
+    "Basic_GraphRAG": 0.72
+  },
+  "variances": {
+    "PageRank_GraphRAG": 0.010774999999999993,
+    "KNN_GraphRAG": 0.006385555555555551,
+    "Basic_GraphRAG": 0.0034000000000000007
+  },
+  "notes": "Use scipy.stats for t-tests, ANOVA, and other statistical significance tests"
+}

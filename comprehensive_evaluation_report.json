@@ -1,0 +1,326 @@
+{
+  "evaluation_summary": {
+    "total_questions": 5,
+    "timestamp": "2025-06-29T18:02:24.284101",
+    "methods_evaluated": [
+      "pagerank_graphrag",
+      "knn_graphrag",
+      "basic_graphrag"
+    ]
+  },
+  "method_performance": {
+    "pagerank_graphrag": {
+      "average_score": 0.736,
+      "total_evaluations": 5,
+      "scores": [
+        0.82,
+        0.87,
+        0.66,
+        0.53,
+        0.8
+      ]
+    },
+    "knn_graphrag": {
+      "average_score": 0.716,
+      "total_evaluations": 5,
+      "scores": [
+        0.74,
+        0.84,
+        0.82,
+        0.34,
+        0.84
+      ]
+    },
+    "basic_graphrag": {
+      "average_score": 0.682,
+      "total_evaluations": 5,
+      "scores": [
+        0.68,
+        0.71,
+        0.78,
+        0.54,
+        0.7
+      ]
+    }
+  },
+  "metric_analysis": {
+    "faithfulness": {
+      "average": 0.773,
+      "min": 0.0,
+      "max": 1.0,
+      "count": 15
+    },
+    "answer_relevancy": {
+      "average": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "count": 15
+    },
+    "completeness": {
+      "average": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "count": 15
+    },
+    "hallucination_score": {
+      "average": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "count": 13
+    },
+    "hallucination_detection": {
+      "average": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "count": 2
+    },
+    "context_precision": {
+      "average": 0.44,
+      "min": 0.0,
+      "max": 0.8,
+      "count": 15
+    }
+  },
+  "detailed_results": [
+    {
+      "question": "Explain computer programming and artificial intelligence",
+      "best_method": "pagerank_graphrag",
+      "method_results": [
+        {
+          "method": "pagerank_graphrag",
+          "overall_score": 0.82,
+          "metric_scores": {
+            "faithfulness": 0.8,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.8,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 2870,
+          "context_length": 10169,
+          "retrieved_nodes_count": 10
+        },
+        {
+          "method": "knn_graphrag",
+          "overall_score": 0.74,
+          "metric_scores": {
+            "faithfulness": 0.8,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.6,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 2657,
+          "context_length": 10762,
+          "retrieved_nodes_count": 10
+        },
+        {
+          "method": "basic_graphrag",
+          "overall_score": 0.68,
+          "metric_scores": {
+            "faithfulness": 0.6,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.6,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 1790,
+          "context_length": 1071,
+          "retrieved_nodes_count": 1
+        }
+      ]
+    },
+    {
+      "question": "What is object-oriented programming?",
+      "best_method": "pagerank_graphrag",
+      "method_results": [
+        {
+          "method": "pagerank_graphrag",
+          "overall_score": 0.87,
+          "metric_scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.8,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 1897,
+          "context_length": 2623,
+          "retrieved_nodes_count": 7
+        },
+        {
+          "method": "knn_graphrag",
+          "overall_score": 0.84,
+          "metric_scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.6,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 2751,
+          "context_length": 11280,
+          "retrieved_nodes_count": 10
+        },
+        {
+          "method": "basic_graphrag",
+          "overall_score": 0.71,
+          "metric_scores": {
+            "faithfulness": 0.6,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.8,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 1775,
+          "context_length": 1112,
+          "retrieved_nodes_count": 1
+        }
+      ]
+    },
+    {
+      "question": "Tell me about Turkey and Izmir",
+      "best_method": "knn_graphrag",
+      "method_results": [
+        {
+          "method": "pagerank_graphrag",
+          "overall_score": 0.66,
+          "metric_scores": {
+            "faithfulness": 0.8,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.4,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 2295,
+          "context_length": 10917,
+          "retrieved_nodes_count": 10
+        },
+        {
+          "method": "knn_graphrag",
+          "overall_score": 0.82,
+          "metric_scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.6,
+            "completeness": 1.0,
+            "hallucination_detection": 0.0
+          },
+          "answer_length": 2652,
+          "context_length": 10886,
+          "retrieved_nodes_count": 10
+        },
+        {
+          "method": "basic_graphrag",
+          "overall_score": 0.78,
+          "metric_scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.6,
+            "completeness": 1.0,
+            "hallucination_detection": 0.0
+          },
+          "answer_length": 1881,
+          "context_length": 1143,
+          "retrieved_nodes_count": 1
+        }
+      ]
+    },
+    {
+      "question": "Bilgisayar programlama ve yapay zeka nedir?",
+      "best_method": "basic_graphrag",
+      "method_results": [
+        {
+          "method": "pagerank_graphrag",
+          "overall_score": 0.53,
+          "metric_scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.0,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 1306,
+          "context_length": 9791,
+          "retrieved_nodes_count": 10
+        },
+        {
+          "method": "knn_graphrag",
+          "overall_score": 0.34,
+          "metric_scores": {
+            "faithfulness": 0.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.2,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 1202,
+          "context_length": 10922,
+          "retrieved_nodes_count": 10
+        },
+        {
+          "method": "basic_graphrag",
+          "overall_score": 0.54,
+          "metric_scores": {
+            "faithfulness": 0.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.0,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 1196,
+          "context_length": 1204,
+          "retrieved_nodes_count": 1
+        }
+      ]
+    },
+    {
+      "question": "Nesne yönelimli programlama hakkında bilgi ver",
+      "best_method": "knn_graphrag",
+      "method_results": [
+        {
+          "method": "pagerank_graphrag",
+          "overall_score": 0.8,
+          "metric_scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.0,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 1963,
+          "context_length": 9747,
+          "retrieved_nodes_count": 10
+        },
+        {
+          "method": "knn_graphrag",
+          "overall_score": 0.84,
+          "metric_scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.6,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 1746,
+          "context_length": 11188,
+          "retrieved_nodes_count": 10
+        },
+        {
+          "method": "basic_graphrag",
+          "overall_score": 0.7,
+          "metric_scores": {
+            "faithfulness": 1.0,
+            "answer_relevancy": 1.0,
+            "context_precision": 0.0,
+            "completeness": 1.0,
+            "hallucination_score": 0.0
+          },
+          "answer_length": 1905,
+          "context_length": 1204,
+          "retrieved_nodes_count": 1
+        }
+      ]
+    }
+  ]
+}

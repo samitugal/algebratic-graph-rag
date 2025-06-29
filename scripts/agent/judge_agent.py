@@ -44,7 +44,7 @@ class JudgeAgent(BaseAgent):
         For each algorithm output:
         1. Assign an overall score from 0 to 10 based on:
         - Relevance: How well does the output answer the original query?
-        - Correctness: Are there factual errors?
+        - Correctness: Are there factual errors?  
         - Completeness: Is the information sufficiently detailed?
         - Explainability: Is the answer coherent and easy to follow?
 
@@ -67,10 +67,11 @@ class JudgeAgent(BaseAgent):
         ## RULES
         - Your overall comparison must be well detailed and must be in a way that is easy to understand.
         - Justifications must be well explained and must be in a way that is easy to understand.
-        - Be objective and consistent.
+        - Be completely objective and consistent - evaluate only the quality of the final answer.
         - Do not generate new answers; judge only what is provided.
         - Highlight both strong and weak points for each output.
-        - Provide a single overall score for the best performing algorithm.
+        - Focus solely on the answer quality, not the underlying methodology.
+        - Evaluate each output in isolation based purely on its merit as a response.
 
         ### Input to Judge:
         {user_request}

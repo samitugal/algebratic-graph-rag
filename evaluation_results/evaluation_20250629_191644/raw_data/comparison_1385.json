@@ -1,0 +1,263 @@
+{
+  "question": "Tell me about Turkey and Izmir",
+  "results": [
+    {
+      "method_name": "PageRank_GraphRAG",
+      "question": "Tell me about Turkey and Izmir",
+      "answer": "{\"answer\":\"Turkey (Türkiye), officially known as the Republic of Turkey (Türkiye Cumhuriyeti), is a transcontinental country located mainly on the Anatolian Peninsula in Western Asia, with a smaller portion on the Balkan Peninsula in Southeast Europe. It borders eight countries: Greece and Bulgaria to the northwest, Georgia to the northeast, Armenia, Azerbaijan, and Iran to the east, and Iraq and Syria to the south. Surrounded by seas— the Mediterranean Sea to the south, the Aegean Sea to the west, and the Black Sea to the north—Turkey has a unique geographical position that connects Europe and Asia, marked by the Turkish Straits: the Bosporus and the Dardanelles.\\n\\nTurkey is recognized as a regional power due to its military capacity and diplomatic initiatives. It has a diverse cultural heritage and is known for having 21 UNESCO World Heritage Sites and 30 UNESCO Intangible Cultural Heritage elements. The country has a rich culinary tradition and is one of the world's most visited countries, ranking fifth in tourist numbers. The primary language spoken is Turkish, and the majority of the population is Sunni Muslim. Turkey is a founding member of organizations such as the OECD, G20, and the Turkic Council. It has been a candidate for European Union membership and is a member of NATO.\\n\\nIzmir, located on the western coast of Turkey, is one of the country's major cities with a population of approximately 2,938,292 in its urban districts and a total population of around 4,493,242. It is situated in a region known for its beautiful coastline along the Aegean Sea and is marked by a mild Mediterranean climate.\\n\\nHistorically, Izmir was known as Smyrna and has roots that date back to ancient civilizations, playing a crucial role during the classical, Hellenistic, and Roman periods. It has historically been characterized by its vibrant trade, making it a significant port city. Today, Izmir is known for its cultural events, festivals, and as a center for commerce and trade. Additionally, the city has a rich cultural scene, with museums, theaters, and a lively arts community that reflects its historical complexities and modern developments.\"}",
+      "context": "Node 65: Resmî dili Türkçedir nüfusunun çoğunluğu Sünni Müslüman'dır. Türkiye, OECD, G20 Türk Devletleri Teşkilatı'nın kurucu üyesidir. Türkiye NATO'nun ilk üyelerinden biridir. AB adayı olan Türkiye, AB Gümrük Birliği, Avrupa Konseyi, İslam İşbirliği Teşkilatı TÜRKSOY'un bir parçasıdır. Türkiye, askerî kapasitesi diplomatik girişimleri sayesinde bölgesel güç kabul edilirken; Avrupa Asya kıtalarının kavşak noktasında yer alması nedeniyle önemli bir jeostratejik güce sahiptir. Türkiye evrensel sağlık hizmetlerine, artan eğitim erişimine artan yenilikçiliğe sahiptir. 21 UNESCO Dünya Mirası alanı, 30 UNESCO Somut Olmayan Kültürel Mirası[7] zengin mutfağı ile Türkiye, dünyanın en çok ziyaret edilen beşinci ülkesidir. Etimoloji Ana madde: Türkiye'nin adı Türkiye'nin adı, \"Türk\" etnik kimliği adından gelir. [8] Sözcüğün günümüzdeki hâlinin orijinali, bugünkü Türkiye toprakları için ilk kez 12. yüzyılda İtalyanlar tarafından Orta Çağ Latincesi kullanılarak Turchia veya Turcmenia şekillerinde oluşturuldu. [9][10] Bunların yanı sıra, Orta Çağ'ın Alman seyyahları bölgeyi Turkei veya Tirkenland şeklinde, Fransızlar ise Turquie şeklinde andı.\n\nNode 66: [10] Sözcüğün Yunanca soydaşı olan Tourkia (Yunanca: Τουρκία), Bizans İmparatoru bilgini VII. Konstantinos tarafından De Administrando Imperio kitabında kullanıldı. [11][12][13][14] Osmanlı İmparatorluğu ise, kendi çağdaşı olan diğer ülkeler tarafından ara ara Türkiye veya Türk İmparatorluğu şeklinde tanınırdı. [15] Aralık 2021'de cumhurbaşkanı Recep Tayyip Erdoğan, ihracatta \"Made Türkiye\" ibaresinin kullanılmasına ilişkin bir genelge yayımladı. [16] Genelgede ayrıca, diğer resmî yazışmalarla ilgili olarak, \"(İngilizce) 'Turkey' gibi ifadeler yerine 'Türkiye' ifadesinin kullanılması konusunda gerekli hassasiyetin gösterileceği\" belirtilmiştir. [16][17][18] Gerekçe olarak da, Türkiye'nin \"Türk milletinin kültür, medeniyet değerlerini en iyi şekilde temsil ifade etmesi\" gösterilmiştir. [16] Mayıs 2022'de Türkiye hükûmeti, Birleşmiş Milletler diğer uluslararası kuruluşlardan İngilizce olarak Turkey yerine Türkiye kullanılmasını talep etmiş bu talep Birleşmiş Milletler tarafından kabul edilmiştir.\n\nNode 81: 1921-1923 yılları arasında Ermeni, Yunan, Fransız İngiliz orduları ülkeden kovuldu:[80][81][82][83] Ankara Hükûmeti'nin askerî ilerleyişi diplomatik başarısı 11 Ekim 1922'de Mudanya Mütarekesi'nin imzalanmasıyla sonuçlandı. Birleşik Krallık ile Ankara Hükûmeti arasındaki Çanakkale Krizi'nin (Eylül-Ekim 1922) ele alınışı, 19 Ekim 1922'de David Lloyd George hükûmetinin çökmesine[84] Kanada'nın Birleşik Krallık'tan siyasi özerklik kazanmasına neden oldu. [85] 1 Kasım 1922 tarihinde Türkiye Büyük Millet Meclisi, saltanatı kaldırdı 623 yıllık monarşik Osmanlı İmparatorluğu, resmen tarih sahnesinden silindi. 24 Temmuz 1923'te Sevr Antlaşması'nın yerine imzalanan Lozan Antlaşması, Osmanlı İmparatorluğu'nun devamı niteliğindeki yeni Türk devletinin uluslararası alanda tanınmasını sağladı. Yeni antlaşma, Türkiye'nin kendi toprakları üzerindeki egemenliğine yol açtı. İtilaf Devletleri'nin Türkiye'yi işgali, 4 Ekim 1923'te son İtilaf birliklerinin İstanbul'dan çekilmesi 6 Ekim 1923'te Türk birliklerinin şehre girmesiyle sona erdi. 29 Ekim 1923'te yeni başkent Ankara'da resmen cumhuriyet ilan edildi.\n\nNode 62: rigler, Lidyalılar Dor istilası sonucu Yunanistan'dan kaçan Akalar tarafından kurulan İyon medeniyeti gibi çeşitli eski Anadolu medeniyetlerinin ardından, Makedonya kralı Büyük İskender'in egemenliğiyle fetihleriyle birlikte Helenistik Dönem başladı. Daha sonra, sırasıyla Roma İmparatorluğu Anadolu'nun Hristiyanlaştığı Bizans dönemleri yaşandı. Selçuklu Türklerinin 1071 yılında Bizans'a karşı kazandığı Malazgirt Meydan Muharebesi ile Anadolu'daki Bizans üstünlüğü büyük ölçüde kırılarak Anadolu, kısa süre içerisinde Selçuklulara bağlı Türk beyleri tarafından ele geçirildi Anadolu toprakları üzerinde İslamlaşma Türkleşme faaliyetleri başladı. Kısa sürede Anadolu'daki diğer Türk beyliklerinin üzerinde hâkimiyet kuran Konya merkezli Anadolu Selçuklu Sultanlığı, 1243 yılındaki Moğollara karşı kaybedilen Kösedağ Muharebesi'ne kadar Anadolu'yu yönetti. Anadolu'daki Moğol istilalarından sonra zayıf duruma düşen Anadolu Selçuklu Devleti, Anadolu'da yerini yeni Türk beyliklerine bıraktı.\n\nNode 73: Oğuz Türkleri, Müslüman olduktan sonra İslam dünyası çevrelerine daha yakın yerlerde ikamet ettiler 9. yüzyılda Hazar Denizi ile Aral Gölü'nün kuzeyine yerleşmeye başladılar. [48] 10. yüzyıl itibarıyla Selçuklular, Pers yurdunu da sınırları içine katarak, atalarının vatanı Orta Asya'dan batıya doğru göç etmeye başladılar Büyük Selçuklu Devleti'ni kurdular. [49] 11. yüzyılın ikinci yarısında Selçuklular, Anadolu'nun doğu bölgelerine yerleşmeye akınlar yapmaya başladılar. 1071'de, Sultan Alp Arslan döneminde, Selçuklu Türkleri ile Bizans İmparatorluğu arasında yapılan Malazgirt Meydan Muharebesi'nden sonra gelen Selçuklu zaferiyle birlikte Anadolu toprakları üzerinde Türkleştirme İslamlaşma hareketi başladı. [50][51] Bu hareketle birlikte Anadolu'da Türk dilleri İslam tanıtılarak yaygın hâle geldi. Böylece bölgede yaygın olan Hristiyanlık Yunanca, yerini yavaş yavaş İslam Türk kültürüne bıraktı. [50] Büyük Selçuklu İmparatorluğu'nun parçalanmasının ardından, Anadolu'da diğer Türk beyliklerinin üzerinde hakimiyet kuran Anadolu Selçuklu Sultanlığı, uzunca bir süre Anadolu'yu yönetti.\n\nNode 74: nti İznik olan Anadolu Selçuklular, Birinci Haçlı Seferi sırasında İznik'in Bizans'ın eline geçmesiyle Sultan I. Kılıç Arslan tarafından 1097 tarihinde başkentini Konya'ya taşımıştır bu tarihten itibaren Konya, Selçuklu Devleti'nin başkenti olmuştur. Sultan I. Alâeddin Keykubad döneminde altın çağını yaşayan Selçuklular, I. Alaeddin'in ölümünün ardından duraklama sürecine girdi. 1200 yılında Anadolu Selçuklu Devleti (Rum Sultanlığı) çevre devletlerin bir haritası. Anadolu Selçukluları, özellikle I. Alâeddin Keykubad döneminde (1220-37) sınırlarını çoğunlukla doğuda olmak üzere önemli ölçüde genişlettiler. Alaeddin Keykubad'ın ölümünü fırsat bilen Moğollar, Selçukluların doğu sınırına saldırarak Anadolu içlerine girmeye çalıştılar. Nitekim 1243'te Anadolu Selçuklu Devleti ile Baycu Noyan komutasındaki Moğollar arasında gerçekleşen Kösedağ Muharebesi sonucunda gelen yenilgiyle Anadolu, Moğol hakimiyetine girmiştir Anadolu Selçuklu Devleti zayıflayıp yerini Türk beyliklerine bırakmıştır. [52] Bu beylikler arasında, Söğüt Bilecik çevresinde kurulu olan Osmanoğulları Beyliği, 13. yüzyılın sonlarına doğru bağımsızlığını ilan etmiştir. İstanbul'un Fethi (1453) sırasında, II.\n\nNode L1_S1:  İzmir has a population of 2,938,292 (in eleven urban districts), and a total population of 4,493,242. Built-up (or metro) area home 3,264,154 inhabitants.\n\nNode 61: Contemporary movements like Hour Code (Code.org) show learning program become associated digital learning strategies, education agendas, corporate philanthropy. Türkiye, resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Batı Asya'da Anadolu'da, diğer bir bölümü ise Güneydoğu Avrupa'nın uzantısı Doğu Trakya'da olan kıtalararası bir ülkedir. Batıda Bulgaristan Yunanistan, doğuda Gürcistan, Ermenistan, İran Azerbaycan, güneyde ise Irak Suriye ile sınır komşusudur. Güneyini Kıbrıs Akdeniz, batısını Ege Denizi, kuzeyini ise Karadeniz çevreler. Marmara Denizi ise İstanbul Boğazı Çanakkale Boğazı ile birlikte Anadolu'yu Trakya'dan, yani Asya'yı Avrupa'dan ayırır. Resmî olarak laik bir devlet olan Türkiye'de nüfusun çoğunluğu Müslümandır. Ankara, Türkiye'nin başkenti ikinci en kalabalık şehri; İstanbul ise, Türkiye'nin en kalabalık şehri, ekonomik merkezi aynı zamanda Avrupa'nın en kalabalık şehridir. Türkiye toprakları üzerindeki ilk yerleşmeler Yontma Taş Devri'nde başlar.",
+      "retrieved_nodes": [
+        {
+          "node_id": 65,
+          "content": "Resmî dili Türkçedir nüfusunun çoğunluğu Sünni Müslüman'dır. Türkiye, OECD, G20 Türk Devletleri Teşkilatı'nın kurucu üyesidir. Türkiye NATO'nun ilk üyelerinden biridir. AB adayı olan Türkiye, AB Gümrük Birliği, Avrupa Konseyi, İslam İşbirliği Teşkilatı TÜRKSOY'un bir parçasıdır. Türkiye, askerî kapasitesi diplomatik girişimleri sayesinde bölgesel güç kabul edilirken; Avrupa Asya kıtalarının kavşak noktasında yer alması nedeniyle önemli bir jeostratejik güce sahiptir. Türkiye evrensel sağlık hizmetlerine, artan eğitim erişimine artan yenilikçiliğe sahiptir. 21 UNESCO Dünya Mirası alanı, 30 UNESCO Somut Olmayan Kültürel Mirası[7] zengin mutfağı ile Türkiye, dünyanın en çok ziyaret edilen beşinci ülkesidir. Etimoloji Ana madde: Türkiye'nin adı Türkiye'nin adı, \"Türk\" etnik kimliği adından gelir. [8] Sözcüğün günümüzdeki hâlinin orijinali, bugünkü Türkiye toprakları için ilk kez 12. yüzyılda İtalyanlar tarafından Orta Çağ Latincesi kullanılarak Turchia veya Turcmenia şekillerinde oluşturuldu. [9][10] Bunların yanı sıra, Orta Çağ'ın Alman seyyahları bölgeyi Turkei veya Tirkenland şeklinde, Fransızlar ise Turquie şeklinde andı.",
+          "query_similarity": 0.5130604653883072,
+          "hop_distance": 1,
+          "path_weight": 0.8459994673728943,
+          "pagerank_score": 0.5453955407507127,
+          "seed_rank": 1,
+          "semantic_boost": 1.2565302326941536,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 66,
+          "content": "[10] Sözcüğün Yunanca soydaşı olan Tourkia (Yunanca: Τουρκία), Bizans İmparatoru bilgini VII. Konstantinos tarafından De Administrando Imperio kitabında kullanıldı. [11][12][13][14] Osmanlı İmparatorluğu ise, kendi çağdaşı olan diğer ülkeler tarafından ara ara Türkiye veya Türk İmparatorluğu şeklinde tanınırdı. [15] Aralık 2021'de cumhurbaşkanı Recep Tayyip Erdoğan, ihracatta \"Made Türkiye\" ibaresinin kullanılmasına ilişkin bir genelge yayımladı. [16] Genelgede ayrıca, diğer resmî yazışmalarla ilgili olarak, \"(İngilizce) 'Turkey' gibi ifadeler yerine 'Türkiye' ifadesinin kullanılması konusunda gerekli hassasiyetin gösterileceği\" belirtilmiştir. [16][17][18] Gerekçe olarak da, Türkiye'nin \"Türk milletinin kültür, medeniyet değerlerini en iyi şekilde temsil ifade etmesi\" gösterilmiştir. [16] Mayıs 2022'de Türkiye hükûmeti, Birleşmiş Milletler diğer uluslararası kuruluşlardan İngilizce olarak Turkey yerine Türkiye kullanılmasını talep etmiş bu talep Birleşmiş Milletler tarafından kabul edilmiştir.",
+          "query_similarity": 0.4500897764865878,
+          "hop_distance": 1,
+          "path_weight": 0.8343730568885803,
+          "pagerank_score": 0.46005676624052616,
+          "seed_rank": 1,
+          "semantic_boost": 1.2250448882432938,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 81,
+          "content": "1921-1923 yılları arasında Ermeni, Yunan, Fransız İngiliz orduları ülkeden kovuldu:[80][81][82][83] Ankara Hükûmeti'nin askerî ilerleyişi diplomatik başarısı 11 Ekim 1922'de Mudanya Mütarekesi'nin imzalanmasıyla sonuçlandı. Birleşik Krallık ile Ankara Hükûmeti arasındaki Çanakkale Krizi'nin (Eylül-Ekim 1922) ele alınışı, 19 Ekim 1922'de David Lloyd George hükûmetinin çökmesine[84] Kanada'nın Birleşik Krallık'tan siyasi özerklik kazanmasına neden oldu. [85] 1 Kasım 1922 tarihinde Türkiye Büyük Millet Meclisi, saltanatı kaldırdı 623 yıllık monarşik Osmanlı İmparatorluğu, resmen tarih sahnesinden silindi. 24 Temmuz 1923'te Sevr Antlaşması'nın yerine imzalanan Lozan Antlaşması, Osmanlı İmparatorluğu'nun devamı niteliğindeki yeni Türk devletinin uluslararası alanda tanınmasını sağladı. Yeni antlaşma, Türkiye'nin kendi toprakları üzerindeki egemenliğine yol açtı. İtilaf Devletleri'nin Türkiye'yi işgali, 4 Ekim 1923'te son İtilaf birliklerinin İstanbul'dan çekilmesi 6 Ekim 1923'te Türk birliklerinin şehre girmesiyle sona erdi. 29 Ekim 1923'te yeni başkent Ankara'da resmen cumhuriyet ilan edildi.",
+          "query_similarity": 0.4506947680738973,
+          "hop_distance": 1,
+          "path_weight": 0.8314735352993011,
+          "pagerank_score": 0.4591876248475841,
+          "seed_rank": 1,
+          "semantic_boost": 1.2253473840369487,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 62,
+          "content": "rigler, Lidyalılar Dor istilası sonucu Yunanistan'dan kaçan Akalar tarafından kurulan İyon medeniyeti gibi çeşitli eski Anadolu medeniyetlerinin ardından, Makedonya kralı Büyük İskender'in egemenliğiyle fetihleriyle birlikte Helenistik Dönem başladı. Daha sonra, sırasıyla Roma İmparatorluğu Anadolu'nun Hristiyanlaştığı Bizans dönemleri yaşandı. Selçuklu Türklerinin 1071 yılında Bizans'a karşı kazandığı Malazgirt Meydan Muharebesi ile Anadolu'daki Bizans üstünlüğü büyük ölçüde kırılarak Anadolu, kısa süre içerisinde Selçuklulara bağlı Türk beyleri tarafından ele geçirildi Anadolu toprakları üzerinde İslamlaşma Türkleşme faaliyetleri başladı. Kısa sürede Anadolu'daki diğer Türk beyliklerinin üzerinde hâkimiyet kuran Konya merkezli Anadolu Selçuklu Sultanlığı, 1243 yılındaki Moğollara karşı kaybedilen Kösedağ Muharebesi'ne kadar Anadolu'yu yönetti. Anadolu'daki Moğol istilalarından sonra zayıf duruma düşen Anadolu Selçuklu Devleti, Anadolu'da yerini yeni Türk beyliklerine bıraktı.",
+          "query_similarity": 0.46713091370638254,
+          "hop_distance": 1,
+          "path_weight": 0.7953902602195739,
+          "pagerank_score": 0.4583329465923203,
+          "seed_rank": 1,
+          "semantic_boost": 1.2335654568531913,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 73,
+          "content": "Oğuz Türkleri, Müslüman olduktan sonra İslam dünyası çevrelerine daha yakın yerlerde ikamet ettiler 9. yüzyılda Hazar Denizi ile Aral Gölü'nün kuzeyine yerleşmeye başladılar. [48] 10. yüzyıl itibarıyla Selçuklular, Pers yurdunu da sınırları içine katarak, atalarının vatanı Orta Asya'dan batıya doğru göç etmeye başladılar Büyük Selçuklu Devleti'ni kurdular. [49] 11. yüzyılın ikinci yarısında Selçuklular, Anadolu'nun doğu bölgelerine yerleşmeye akınlar yapmaya başladılar. 1071'de, Sultan Alp Arslan döneminde, Selçuklu Türkleri ile Bizans İmparatorluğu arasında yapılan Malazgirt Meydan Muharebesi'nden sonra gelen Selçuklu zaferiyle birlikte Anadolu toprakları üzerinde Türkleştirme İslamlaşma hareketi başladı. [50][51] Bu hareketle birlikte Anadolu'da Türk dilleri İslam tanıtılarak yaygın hâle geldi. Böylece bölgede yaygın olan Hristiyanlık Yunanca, yerini yavaş yavaş İslam Türk kültürüne bıraktı. [50] Büyük Selçuklu İmparatorluğu'nun parçalanmasının ardından, Anadolu'da diğer Türk beyliklerinin üzerinde hakimiyet kuran Anadolu Selçuklu Sultanlığı, uzunca bir süre Anadolu'yu yönetti.",
+          "query_similarity": 0.4471815663273013,
+          "hop_distance": 1,
+          "path_weight": 0.8335089564323426,
+          "pagerank_score": 0.45606879767252695,
+          "seed_rank": 1,
+          "semantic_boost": 1.2235907831636506,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 74,
+          "content": "nti İznik olan Anadolu Selçuklular, Birinci Haçlı Seferi sırasında İznik'in Bizans'ın eline geçmesiyle Sultan I. Kılıç Arslan tarafından 1097 tarihinde başkentini Konya'ya taşımıştır bu tarihten itibaren Konya, Selçuklu Devleti'nin başkenti olmuştur. Sultan I. Alâeddin Keykubad döneminde altın çağını yaşayan Selçuklular, I. Alaeddin'in ölümünün ardından duraklama sürecine girdi. 1200 yılında Anadolu Selçuklu Devleti (Rum Sultanlığı) çevre devletlerin bir haritası. Anadolu Selçukluları, özellikle I. Alâeddin Keykubad döneminde (1220-37) sınırlarını çoğunlukla doğuda olmak üzere önemli ölçüde genişlettiler. Alaeddin Keykubad'ın ölümünü fırsat bilen Moğollar, Selçukluların doğu sınırına saldırarak Anadolu içlerine girmeye çalıştılar. Nitekim 1243'te Anadolu Selçuklu Devleti ile Baycu Noyan komutasındaki Moğollar arasında gerçekleşen Kösedağ Muharebesi sonucunda gelen yenilgiyle Anadolu, Moğol hakimiyetine girmiştir Anadolu Selçuklu Devleti zayıflayıp yerini Türk beyliklerine bırakmıştır. [52] Bu beylikler arasında, Söğüt Bilecik çevresinde kurulu olan Osmanoğulları Beyliği, 13. yüzyılın sonlarına doğru bağımsızlığını ilan etmiştir. İstanbul'un Fethi (1453) sırasında, II.",
+          "query_similarity": 0.4108805052105541,
+          "hop_distance": 1,
+          "path_weight": 0.8749151825904846,
+          "pagerank_score": 0.4333384031167336,
+          "seed_rank": 1,
+          "semantic_boost": 1.205440252605277,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": "L1_S1",
+          "content": " İzmir has a population of 2,938,292 (in eleven urban districts), and a total population of 4,493,242. Built-up (or metro) area home 3,264,154 inhabitants.",
+          "query_similarity": 0.6853858806517605,
+          "hop_distance": 2,
+          "path_weight": 0.4141945198547855,
+          "pagerank_score": 0.41928458185894063,
+          "seed_rank": 1,
+          "semantic_boost": 1.3426929403258803,
+          "relationship_type": "RELATED_TO"
+        },
+        {
+          "node_id": 61,
+          "content": "Contemporary movements like Hour Code (Code.org) show learning program become associated digital learning strategies, education agendas, corporate philanthropy. Türkiye, resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Batı Asya'da Anadolu'da, diğer bir bölümü ise Güneydoğu Avrupa'nın uzantısı Doğu Trakya'da olan kıtalararası bir ülkedir. Batıda Bulgaristan Yunanistan, doğuda Gürcistan, Ermenistan, İran Azerbaycan, güneyde ise Irak Suriye ile sınır komşusudur. Güneyini Kıbrıs Akdeniz, batısını Ege Denizi, kuzeyini ise Karadeniz çevreler. Marmara Denizi ise İstanbul Boğazı Çanakkale Boğazı ile birlikte Anadolu'yu Trakya'dan, yani Asya'yı Avrupa'dan ayırır. Resmî olarak laik bir devlet olan Türkiye'de nüfusun çoğunluğu Müslümandır. Ankara, Türkiye'nin başkenti ikinci en kalabalık şehri; İstanbul ise, Türkiye'nin en kalabalık şehri, ekonomik merkezi aynı zamanda Avrupa'nın en kalabalık şehridir. Türkiye toprakları üzerindeki ilk yerleşmeler Yontma Taş Devri'nde başlar.",
+          "query_similarity": 0.4751590482860758,
+          "hop_distance": 2,
+          "path_weight": 0.6830234468495477,
+          "pagerank_score": 0.4016499632103946,
+          "seed_rank": 1,
+          "semantic_boost": 1.2375795241430378,
+          "relationship_type": "RELATED_TO"
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.8,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.4,
+        "completeness": 1.0,
+        "hallucination_score": 0.0
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer provides a largely accurate portrayal of Turkey and Izmir, with only minor details inferred that weren't explicitly stated.",
+        "answer_relevancy": "The answer directly and thoroughly addresses the question about Turkey and Izmir, providing a seamless transition between the two.",
+        "context_precision": "The context contains a mix of relevant and irrelevant information, lacking specific and sufficient details about Izmir.",
+        "completeness": "The answer effectively covers all aspects of both Turkey and Izmir, ensuring a comprehensive response.",
+        "hallucination_score": "All information in the answer is verifiable and consistent with known facts, indicating no hallucinations."
+      },
+      "overall_score": 0.76,
+      "timestamp": "2025-06-29T19:22:09.548748",
+      "response_time": 11.34306,
+      "token_usage": {
+        "prompt_tokens": 938,
+        "completion_tokens": 344
+      }
+    },
+    {
+      "method_name": "KNN_GraphRAG",
+      "question": "Tell me about Turkey and Izmir",
+      "answer": "{\n  \"answer\": \"Turkey, officially known as the Republic of Turkey (Türkiye Cumhuriyeti), is a country that spans both Western Asia and Southeast Europe. The majority of its landmass lies in Anatolia (Asia Minor), while a smaller portion extends into Eastern Thrace (European Turkey). Turkey shares borders with eight countries: Bulgaria and Greece to the west; Georgia, Armenia, Iran, and Azerbaijan to the east; and Iraq and Syria to the south. It is surrounded by several bodies of water, including the Mediterranean Sea to the south, the Aegean Sea to the west, and the Black Sea to the north. The Sea of Marmara, along with the Bosporus and Dardanelles straits, separates Anatolia from Thrace and provides a crucial passage between Europe and Asia.\\n\\nThe official language is Turkish, and the majority of the population identifies as Sunni Muslim. Turkey is a founding member of several international organizations, including the OECD and G20, and it is a candidate for European Union membership. The country has a significant military capability and possesses a unique geopolitical position, acting as a bridge between the East and West.\\n\\nTurkey is notable for its rich cultural heritage, which is reflected in its 21 UNESCO World Heritage Sites and 30 UNESCO Intangible Cultural Heritage elements, making it one of the most visited countries in the world.\\n\\nIzmir, located on the western coast of Turkey along the Aegean Sea, is the country's third-largest city and an important urban center. Historically known as Smyrna, Izmir has a vibrant history that dates back thousands of years. It was a prominent city during ancient times and has been home to various civilizations, including the Greeks, Romans, and Ottomans. Today, Izmir is known for its beautiful coastline, cultural festivals, and historical sites. It is also a significant economic hub, particularly in trade and commerce, and features a modern infrastructure, making it a popular destination for both tourists and locals.\"\n}",
+      "context": "Node 80: [72] Savaşın ardından imparatorluğa bağlı milletler ayrılarak çeşitli yeni devletler kurdular. [73][74][75][76] 30 Ekim 1918'de Osmanlı İmparatorluğu, İtilaf Devletleri ile Mondros Mütarekesi'ni imzaladı. [77] 10 Ağustos 1920'de imzalanan Sevr Antlaşması ise Osmanlı topraklarını İtilaf Devletleri arasında paylaştırdı, ancak yürürlüğe giremedi. [53] Türkiye Cumhuriyeti Ana madde: Türkiye siyasi tarihi Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu ilk cumhurbaşkanıdır. I. Dünya Savaşı bitiminde imzalanan Mondros Mütarekesi'nden sonra İtilaf Devletleri tarafından İstanbul, İzmir diğer Osmanlı topraklarının işgali, Anadolu Hareketi'ni ortaya çıkardı. [78] Çanakkale Savaşı'nın öne çıkan isimlerinden biri olan Mustafa Kemal Paşa'nın 19 Mayıs 1919'da Samsun'a çıkışı ile Sevr Antlaşması'nın getirdiği şartları iptal edip Mîsâk-ı Millî sınırları içinde kalan ülke topraklarının bütünlüğünü korumayı amaçlayan Türk Kurtuluş Savaşı başlatıldı. [79] Ankara'da 23 Nisan 1920'de kendisini ülkenin meşru hükûmeti ilan eden Ankara merkezli Türk rejimi, eski Osmanlı'dan yeni Cumhuriyet siyasi sistemine yasal geçişi resmîleştirmeye başladı. Ankara Hükûmeti silahlı diplomatik mücadeleye girişti.\n\nNode 61: Contemporary movements like Hour Code (Code.org) show learning program become associated digital learning strategies, education agendas, corporate philanthropy. Türkiye, resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Batı Asya'da Anadolu'da, diğer bir bölümü ise Güneydoğu Avrupa'nın uzantısı Doğu Trakya'da olan kıtalararası bir ülkedir. Batıda Bulgaristan Yunanistan, doğuda Gürcistan, Ermenistan, İran Azerbaycan, güneyde ise Irak Suriye ile sınır komşusudur. Güneyini Kıbrıs Akdeniz, batısını Ege Denizi, kuzeyini ise Karadeniz çevreler. Marmara Denizi ise İstanbul Boğazı Çanakkale Boğazı ile birlikte Anadolu'yu Trakya'dan, yani Asya'yı Avrupa'dan ayırır. Resmî olarak laik bir devlet olan Türkiye'de nüfusun çoğunluğu Müslümandır. Ankara, Türkiye'nin başkenti ikinci en kalabalık şehri; İstanbul ise, Türkiye'nin en kalabalık şehri, ekonomik merkezi aynı zamanda Avrupa'nın en kalabalık şehridir. Türkiye toprakları üzerindeki ilk yerleşmeler Yontma Taş Devri'nde başlar.\n\nNode 65: Resmî dili Türkçedir nüfusunun çoğunluğu Sünni Müslüman'dır. Türkiye, OECD, G20 Türk Devletleri Teşkilatı'nın kurucu üyesidir. Türkiye NATO'nun ilk üyelerinden biridir. AB adayı olan Türkiye, AB Gümrük Birliği, Avrupa Konseyi, İslam İşbirliği Teşkilatı TÜRKSOY'un bir parçasıdır. Türkiye, askerî kapasitesi diplomatik girişimleri sayesinde bölgesel güç kabul edilirken; Avrupa Asya kıtalarının kavşak noktasında yer alması nedeniyle önemli bir jeostratejik güce sahiptir. Türkiye evrensel sağlık hizmetlerine, artan eğitim erişimine artan yenilikçiliğe sahiptir. 21 UNESCO Dünya Mirası alanı, 30 UNESCO Somut Olmayan Kültürel Mirası[7] zengin mutfağı ile Türkiye, dünyanın en çok ziyaret edilen beşinci ülkesidir. Etimoloji Ana madde: Türkiye'nin adı Türkiye'nin adı, \"Türk\" etnik kimliği adından gelir. [8] Sözcüğün günümüzdeki hâlinin orijinali, bugünkü Türkiye toprakları için ilk kez 12. yüzyılda İtalyanlar tarafından Orta Çağ Latincesi kullanılarak Turchia veya Turcmenia şekillerinde oluşturuldu. [9][10] Bunların yanı sıra, Orta Çağ'ın Alman seyyahları bölgeyi Turkei veya Tirkenland şeklinde, Fransızlar ise Turquie şeklinde andı.",
+      "retrieved_nodes": [
+        {
+          "node_id": 80,
+          "content": "[72] Savaşın ardından imparatorluğa bağlı milletler ayrılarak çeşitli yeni devletler kurdular. [73][74][75][76] 30 Ekim 1918'de Osmanlı İmparatorluğu, İtilaf Devletleri ile Mondros Mütarekesi'ni imzaladı. [77] 10 Ağustos 1920'de imzalanan Sevr Antlaşması ise Osmanlı topraklarını İtilaf Devletleri arasında paylaştırdı, ancak yürürlüğe giremedi. [53] Türkiye Cumhuriyeti Ana madde: Türkiye siyasi tarihi Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu ilk cumhurbaşkanıdır. I. Dünya Savaşı bitiminde imzalanan Mondros Mütarekesi'nden sonra İtilaf Devletleri tarafından İstanbul, İzmir diğer Osmanlı topraklarının işgali, Anadolu Hareketi'ni ortaya çıkardı. [78] Çanakkale Savaşı'nın öne çıkan isimlerinden biri olan Mustafa Kemal Paşa'nın 19 Mayıs 1919'da Samsun'a çıkışı ile Sevr Antlaşması'nın getirdiği şartları iptal edip Mîsâk-ı Millî sınırları içinde kalan ülke topraklarının bütünlüğünü korumayı amaçlayan Türk Kurtuluş Savaşı başlatıldı. [79] Ankara'da 23 Nisan 1920'de kendisini ülkenin meşru hükûmeti ilan eden Ankara merkezli Türk rejimi, eski Osmanlı'dan yeni Cumhuriyet siyasi sistemine yasal geçişi resmîleştirmeye başladı. Ankara Hükûmeti silahlı diplomatik mücadeleye girişti.",
+          "score": 0.7354600429534912
+        },
+        {
+          "node_id": 61,
+          "content": "Contemporary movements like Hour Code (Code.org) show learning program become associated digital learning strategies, education agendas, corporate philanthropy. Türkiye, resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Batı Asya'da Anadolu'da, diğer bir bölümü ise Güneydoğu Avrupa'nın uzantısı Doğu Trakya'da olan kıtalararası bir ülkedir. Batıda Bulgaristan Yunanistan, doğuda Gürcistan, Ermenistan, İran Azerbaycan, güneyde ise Irak Suriye ile sınır komşusudur. Güneyini Kıbrıs Akdeniz, batısını Ege Denizi, kuzeyini ise Karadeniz çevreler. Marmara Denizi ise İstanbul Boğazı Çanakkale Boğazı ile birlikte Anadolu'yu Trakya'dan, yani Asya'yı Avrupa'dan ayırır. Resmî olarak laik bir devlet olan Türkiye'de nüfusun çoğunluğu Müslümandır. Ankara, Türkiye'nin başkenti ikinci en kalabalık şehri; İstanbul ise, Türkiye'nin en kalabalık şehri, ekonomik merkezi aynı zamanda Avrupa'nın en kalabalık şehridir. Türkiye toprakları üzerindeki ilk yerleşmeler Yontma Taş Devri'nde başlar.",
+          "score": 0.7376377582550049
+        },
+        {
+          "node_id": 65,
+          "content": "Resmî dili Türkçedir nüfusunun çoğunluğu Sünni Müslüman'dır. Türkiye, OECD, G20 Türk Devletleri Teşkilatı'nın kurucu üyesidir. Türkiye NATO'nun ilk üyelerinden biridir. AB adayı olan Türkiye, AB Gümrük Birliği, Avrupa Konseyi, İslam İşbirliği Teşkilatı TÜRKSOY'un bir parçasıdır. Türkiye, askerî kapasitesi diplomatik girişimleri sayesinde bölgesel güç kabul edilirken; Avrupa Asya kıtalarının kavşak noktasında yer alması nedeniyle önemli bir jeostratejik güce sahiptir. Türkiye evrensel sağlık hizmetlerine, artan eğitim erişimine artan yenilikçiliğe sahiptir. 21 UNESCO Dünya Mirası alanı, 30 UNESCO Somut Olmayan Kültürel Mirası[7] zengin mutfağı ile Türkiye, dünyanın en çok ziyaret edilen beşinci ülkesidir. Etimoloji Ana madde: Türkiye'nin adı Türkiye'nin adı, \"Türk\" etnik kimliği adından gelir. [8] Sözcüğün günümüzdeki hâlinin orijinali, bugünkü Türkiye toprakları için ilk kez 12. yüzyılda İtalyanlar tarafından Orta Çağ Latincesi kullanılarak Turchia veya Turcmenia şekillerinde oluşturuldu. [9][10] Bunların yanı sıra, Orta Çağ'ın Alman seyyahları bölgeyi Turkei veya Tirkenland şeklinde, Fransızlar ise Turquie şeklinde andı.",
+          "score": 0.7560491561889648
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.8,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.5,
+        "completeness": 0.9,
+        "hallucination_score": 0.0
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer is largely faithful to the context but includes some minor extrapolations which dilute the overall accuracy.",
+        "answer_relevancy": "The answer is completely relevant, addressing the prompt regarding both Turkey and Izmir thoroughly.",
+        "context_precision": "While the context contains relevant details, it also includes a substantial amount of irrelevant information that distracts from the main question.",
+        "completeness": "The response is comprehensive, covering both Turkey and Izmir with necessary details and contextual information.",
+        "hallucination_score": "The answer does not contain any hallucinated information; all details are factual."
+      },
+      "overall_score": 0.75,
+      "timestamp": "2025-06-29T19:23:01.972201",
+      "response_time": 12.327399,
+      "token_usage": {
+        "prompt_tokens": 417,
+        "completion_tokens": 314
+      }
+    },
+    {
+      "method_name": "Basic_GraphRAG",
+      "question": "Tell me about Turkey and Izmir",
+      "answer": "{\"answer\":\"Turkey, officially known as the Republic of Turkey (Türkiye Cumhuriyeti), is a transcontinental country located mainly on the Anatolian peninsula in Western Asia, with a smaller portion situated in Southeastern Europe, known as Eastern Thrace. It is bordered to the north by the Black Sea, to the west by the Aegean Sea, to the south by the Mediterranean Sea, and shares land borders with eight countries: Greece and Bulgaria to the northwest, Georgia to the northeast, Armenia, Azerbaijan, and Iran to the east, and Iraq and Syria to the south.\\n\\nHistorically, Turkey has been a crossroads for various civilizations due to its strategic geographical location. It was home to ancient civilizations, such as the Lydians and the Ionians, before becoming part of larger empires including the Hellenistic Empire, Roman Empire, and Byzantine Empire. The Ottoman Empire, which emerged in the late 13th century, ultimately succeeded in unifying the region and ruled for several centuries until the end of World War I, leading to the establishment of the Republic of Turkey in 1923 under Mustafa Kemal Atatürk.\\n\\nTurkey is recognized for its rich history, diverse culture, and significant contributions to art, architecture, and literature throughout the centuries. It is a member of various international organizations, including the OECD, G20, and NATO, and is a candidate for EU membership. The country has a secular government with a predominantly Muslim population, primarily Sunni.\\n\\nIzmir is one of the major cities in Turkey, located on the Aegean coast. Historically known as Smyrna, it has a rich cultural heritage dating back to ancient times. Izmir is the third-largest city in Turkey after Istanbul and Ankara, and it serves as an important regional hub for trade, commerce, and tourism.\\n\\nThe city boasts a vibrant port and plays a critical role in Turkey's economy, particularly in the areas of textile and trade. Its diverse culture reflects the mixture of influences from Greek, Roman, Byzantine, and Ottoman histories. Izmir is known for its favorable climate, beautiful coastal scenery, and lively cultural scene, including fairs, festivals, and a wide range of culinary delights, making it a popular destination for tourists both domestic and international. \\n\\nIn summary, Turkey offers a unique blend of history, culture, and strategic significance, while Izmir stands out as a key urban center contributing to the country's economic and cultural landscape.\"}",
+      "context": "Node 66: [10] Sözcüğün Yunanca soydaşı olan Tourkia (Yunanca: Τουρκία), Bizans İmparatoru bilgini VII. Konstantinos tarafından De Administrando Imperio kitabında kullanıldı. [11][12][13][14] Osmanlı İmparatorluğu ise, kendi çağdaşı olan diğer ülkeler tarafından ara ara Türkiye veya Türk İmparatorluğu şeklinde tanınırdı. [15] Aralık 2021'de cumhurbaşkanı Recep Tayyip Erdoğan, ihracatta \"Made Türkiye\" ibaresinin kullanılmasına ilişkin bir genelge yayımladı. [16] Genelgede ayrıca, diğer resmî yazışmalarla ilgili olarak, \"(İngilizce) 'Turkey' gibi ifadeler yerine 'Türkiye' ifadesinin kullanılması konusunda gerekli hassasiyetin gösterileceği\" belirtilmiştir. [16][17][18] Gerekçe olarak da, Türkiye'nin \"Türk milletinin kültür, medeniyet değerlerini en iyi şekilde temsil ifade etmesi\" gösterilmiştir. [16] Mayıs 2022'de Türkiye hükûmeti, Birleşmiş Milletler diğer uluslararası kuruluşlardan İngilizce olarak Turkey yerine Türkiye kullanılmasını talep etmiş bu talep Birleşmiş Milletler tarafından kabul edilmiştir.\n\nNode 62: rigler, Lidyalılar Dor istilası sonucu Yunanistan'dan kaçan Akalar tarafından kurulan İyon medeniyeti gibi çeşitli eski Anadolu medeniyetlerinin ardından, Makedonya kralı Büyük İskender'in egemenliğiyle fetihleriyle birlikte Helenistik Dönem başladı. Daha sonra, sırasıyla Roma İmparatorluğu Anadolu'nun Hristiyanlaştığı Bizans dönemleri yaşandı. Selçuklu Türklerinin 1071 yılında Bizans'a karşı kazandığı Malazgirt Meydan Muharebesi ile Anadolu'daki Bizans üstünlüğü büyük ölçüde kırılarak Anadolu, kısa süre içerisinde Selçuklulara bağlı Türk beyleri tarafından ele geçirildi Anadolu toprakları üzerinde İslamlaşma Türkleşme faaliyetleri başladı. Kısa sürede Anadolu'daki diğer Türk beyliklerinin üzerinde hâkimiyet kuran Konya merkezli Anadolu Selçuklu Sultanlığı, 1243 yılındaki Moğollara karşı kaybedilen Kösedağ Muharebesi'ne kadar Anadolu'yu yönetti. Anadolu'daki Moğol istilalarından sonra zayıf duruma düşen Anadolu Selçuklu Devleti, Anadolu'da yerini yeni Türk beyliklerine bıraktı.\n\nNode 80: [72] Savaşın ardından imparatorluğa bağlı milletler ayrılarak çeşitli yeni devletler kurdular. [73][74][75][76] 30 Ekim 1918'de Osmanlı İmparatorluğu, İtilaf Devletleri ile Mondros Mütarekesi'ni imzaladı. [77] 10 Ağustos 1920'de imzalanan Sevr Antlaşması ise Osmanlı topraklarını İtilaf Devletleri arasında paylaştırdı, ancak yürürlüğe giremedi. [53] Türkiye Cumhuriyeti Ana madde: Türkiye siyasi tarihi Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu ilk cumhurbaşkanıdır. I. Dünya Savaşı bitiminde imzalanan Mondros Mütarekesi'nden sonra İtilaf Devletleri tarafından İstanbul, İzmir diğer Osmanlı topraklarının işgali, Anadolu Hareketi'ni ortaya çıkardı. [78] Çanakkale Savaşı'nın öne çıkan isimlerinden biri olan Mustafa Kemal Paşa'nın 19 Mayıs 1919'da Samsun'a çıkışı ile Sevr Antlaşması'nın getirdiği şartları iptal edip Mîsâk-ı Millî sınırları içinde kalan ülke topraklarının bütünlüğünü korumayı amaçlayan Türk Kurtuluş Savaşı başlatıldı. [79] Ankara'da 23 Nisan 1920'de kendisini ülkenin meşru hükûmeti ilan eden Ankara merkezli Türk rejimi, eski Osmanlı'dan yeni Cumhuriyet siyasi sistemine yasal geçişi resmîleştirmeye başladı. Ankara Hükûmeti silahlı diplomatik mücadeleye girişti.\n\nNode 61: Contemporary movements like Hour Code (Code.org) show learning program become associated digital learning strategies, education agendas, corporate philanthropy. Türkiye, resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Batı Asya'da Anadolu'da, diğer bir bölümü ise Güneydoğu Avrupa'nın uzantısı Doğu Trakya'da olan kıtalararası bir ülkedir. Batıda Bulgaristan Yunanistan, doğuda Gürcistan, Ermenistan, İran Azerbaycan, güneyde ise Irak Suriye ile sınır komşusudur. Güneyini Kıbrıs Akdeniz, batısını Ege Denizi, kuzeyini ise Karadeniz çevreler. Marmara Denizi ise İstanbul Boğazı Çanakkale Boğazı ile birlikte Anadolu'yu Trakya'dan, yani Asya'yı Avrupa'dan ayırır. Resmî olarak laik bir devlet olan Türkiye'de nüfusun çoğunluğu Müslümandır. Ankara, Türkiye'nin başkenti ikinci en kalabalık şehri; İstanbul ise, Türkiye'nin en kalabalık şehri, ekonomik merkezi aynı zamanda Avrupa'nın en kalabalık şehridir. Türkiye toprakları üzerindeki ilk yerleşmeler Yontma Taş Devri'nde başlar.\n\nNode 65: Resmî dili Türkçedir nüfusunun çoğunluğu Sünni Müslüman'dır. Türkiye, OECD, G20 Türk Devletleri Teşkilatı'nın kurucu üyesidir. Türkiye NATO'nun ilk üyelerinden biridir. AB adayı olan Türkiye, AB Gümrük Birliği, Avrupa Konseyi, İslam İşbirliği Teşkilatı TÜRKSOY'un bir parçasıdır. Türkiye, askerî kapasitesi diplomatik girişimleri sayesinde bölgesel güç kabul edilirken; Avrupa Asya kıtalarının kavşak noktasında yer alması nedeniyle önemli bir jeostratejik güce sahiptir. Türkiye evrensel sağlık hizmetlerine, artan eğitim erişimine artan yenilikçiliğe sahiptir. 21 UNESCO Dünya Mirası alanı, 30 UNESCO Somut Olmayan Kültürel Mirası[7] zengin mutfağı ile Türkiye, dünyanın en çok ziyaret edilen beşinci ülkesidir. Etimoloji Ana madde: Türkiye'nin adı Türkiye'nin adı, \"Türk\" etnik kimliği adından gelir. [8] Sözcüğün günümüzdeki hâlinin orijinali, bugünkü Türkiye toprakları için ilk kez 12. yüzyılda İtalyanlar tarafından Orta Çağ Latincesi kullanılarak Turchia veya Turcmenia şekillerinde oluşturuldu. [9][10] Bunların yanı sıra, Orta Çağ'ın Alman seyyahları bölgeyi Turkei veya Tirkenland şeklinde, Fransızlar ise Turquie şeklinde andı.",
+      "retrieved_nodes": [
+        {
+          "node_id": 66,
+          "content": "[10] Sözcüğün Yunanca soydaşı olan Tourkia (Yunanca: Τουρκία), Bizans İmparatoru bilgini VII. Konstantinos tarafından De Administrando Imperio kitabında kullanıldı. [11][12][13][14] Osmanlı İmparatorluğu ise, kendi çağdaşı olan diğer ülkeler tarafından ara ara Türkiye veya Türk İmparatorluğu şeklinde tanınırdı. [15] Aralık 2021'de cumhurbaşkanı Recep Tayyip Erdoğan, ihracatta \"Made Türkiye\" ibaresinin kullanılmasına ilişkin bir genelge yayımladı. [16] Genelgede ayrıca, diğer resmî yazışmalarla ilgili olarak, \"(İngilizce) 'Turkey' gibi ifadeler yerine 'Türkiye' ifadesinin kullanılması konusunda gerekli hassasiyetin gösterileceği\" belirtilmiştir. [16][17][18] Gerekçe olarak da, Türkiye'nin \"Türk milletinin kültür, medeniyet değerlerini en iyi şekilde temsil ifade etmesi\" gösterilmiştir. [16] Mayıs 2022'de Türkiye hükûmeti, Birleşmiş Milletler diğer uluslararası kuruluşlardan İngilizce olarak Turkey yerine Türkiye kullanılmasını talep etmiş bu talep Birleşmiş Milletler tarafından kabul edilmiştir.",
+          "score": 0.7253587245941162
+        },
+        {
+          "node_id": 62,
+          "content": "rigler, Lidyalılar Dor istilası sonucu Yunanistan'dan kaçan Akalar tarafından kurulan İyon medeniyeti gibi çeşitli eski Anadolu medeniyetlerinin ardından, Makedonya kralı Büyük İskender'in egemenliğiyle fetihleriyle birlikte Helenistik Dönem başladı. Daha sonra, sırasıyla Roma İmparatorluğu Anadolu'nun Hristiyanlaştığı Bizans dönemleri yaşandı. Selçuklu Türklerinin 1071 yılında Bizans'a karşı kazandığı Malazgirt Meydan Muharebesi ile Anadolu'daki Bizans üstünlüğü büyük ölçüde kırılarak Anadolu, kısa süre içerisinde Selçuklulara bağlı Türk beyleri tarafından ele geçirildi Anadolu toprakları üzerinde İslamlaşma Türkleşme faaliyetleri başladı. Kısa sürede Anadolu'daki diğer Türk beyliklerinin üzerinde hâkimiyet kuran Konya merkezli Anadolu Selçuklu Sultanlığı, 1243 yılındaki Moğollara karşı kaybedilen Kösedağ Muharebesi'ne kadar Anadolu'yu yönetti. Anadolu'daki Moğol istilalarından sonra zayıf duruma düşen Anadolu Selçuklu Devleti, Anadolu'da yerini yeni Türk beyliklerine bıraktı.",
+          "score": 0.7326674461364746
+        },
+        {
+          "node_id": 80,
+          "content": "[72] Savaşın ardından imparatorluğa bağlı milletler ayrılarak çeşitli yeni devletler kurdular. [73][74][75][76] 30 Ekim 1918'de Osmanlı İmparatorluğu, İtilaf Devletleri ile Mondros Mütarekesi'ni imzaladı. [77] 10 Ağustos 1920'de imzalanan Sevr Antlaşması ise Osmanlı topraklarını İtilaf Devletleri arasında paylaştırdı, ancak yürürlüğe giremedi. [53] Türkiye Cumhuriyeti Ana madde: Türkiye siyasi tarihi Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu ilk cumhurbaşkanıdır. I. Dünya Savaşı bitiminde imzalanan Mondros Mütarekesi'nden sonra İtilaf Devletleri tarafından İstanbul, İzmir diğer Osmanlı topraklarının işgali, Anadolu Hareketi'ni ortaya çıkardı. [78] Çanakkale Savaşı'nın öne çıkan isimlerinden biri olan Mustafa Kemal Paşa'nın 19 Mayıs 1919'da Samsun'a çıkışı ile Sevr Antlaşması'nın getirdiği şartları iptal edip Mîsâk-ı Millî sınırları içinde kalan ülke topraklarının bütünlüğünü korumayı amaçlayan Türk Kurtuluş Savaşı başlatıldı. [79] Ankara'da 23 Nisan 1920'de kendisini ülkenin meşru hükûmeti ilan eden Ankara merkezli Türk rejimi, eski Osmanlı'dan yeni Cumhuriyet siyasi sistemine yasal geçişi resmîleştirmeye başladı. Ankara Hükûmeti silahlı diplomatik mücadeleye girişti.",
+          "score": 0.7354600429534912
+        },
+        {
+          "node_id": 61,
+          "content": "Contemporary movements like Hour Code (Code.org) show learning program become associated digital learning strategies, education agendas, corporate philanthropy. Türkiye, resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Batı Asya'da Anadolu'da, diğer bir bölümü ise Güneydoğu Avrupa'nın uzantısı Doğu Trakya'da olan kıtalararası bir ülkedir. Batıda Bulgaristan Yunanistan, doğuda Gürcistan, Ermenistan, İran Azerbaycan, güneyde ise Irak Suriye ile sınır komşusudur. Güneyini Kıbrıs Akdeniz, batısını Ege Denizi, kuzeyini ise Karadeniz çevreler. Marmara Denizi ise İstanbul Boğazı Çanakkale Boğazı ile birlikte Anadolu'yu Trakya'dan, yani Asya'yı Avrupa'dan ayırır. Resmî olarak laik bir devlet olan Türkiye'de nüfusun çoğunluğu Müslümandır. Ankara, Türkiye'nin başkenti ikinci en kalabalık şehri; İstanbul ise, Türkiye'nin en kalabalık şehri, ekonomik merkezi aynı zamanda Avrupa'nın en kalabalık şehridir. Türkiye toprakları üzerindeki ilk yerleşmeler Yontma Taş Devri'nde başlar.",
+          "score": 0.7376377582550049
+        },
+        {
+          "node_id": 65,
+          "content": "Resmî dili Türkçedir nüfusunun çoğunluğu Sünni Müslüman'dır. Türkiye, OECD, G20 Türk Devletleri Teşkilatı'nın kurucu üyesidir. Türkiye NATO'nun ilk üyelerinden biridir. AB adayı olan Türkiye, AB Gümrük Birliği, Avrupa Konseyi, İslam İşbirliği Teşkilatı TÜRKSOY'un bir parçasıdır. Türkiye, askerî kapasitesi diplomatik girişimleri sayesinde bölgesel güç kabul edilirken; Avrupa Asya kıtalarının kavşak noktasında yer alması nedeniyle önemli bir jeostratejik güce sahiptir. Türkiye evrensel sağlık hizmetlerine, artan eğitim erişimine artan yenilikçiliğe sahiptir. 21 UNESCO Dünya Mirası alanı, 30 UNESCO Somut Olmayan Kültürel Mirası[7] zengin mutfağı ile Türkiye, dünyanın en çok ziyaret edilen beşinci ülkesidir. Etimoloji Ana madde: Türkiye'nin adı Türkiye'nin adı, \"Türk\" etnik kimliği adından gelir. [8] Sözcüğün günümüzdeki hâlinin orijinali, bugünkü Türkiye toprakları için ilk kez 12. yüzyılda İtalyanlar tarafından Orta Çağ Latincesi kullanılarak Turchia veya Turcmenia şekillerinde oluşturuldu. [9][10] Bunların yanı sıra, Orta Çağ'ın Alman seyyahları bölgeyi Turkei veya Tirkenland şeklinde, Fransızlar ise Turquie şeklinde andı.",
+          "score": 0.7560491561889648
+        }
+      ],
+      "metric_scores": {
+        "faithfulness": 0.6,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.4,
+        "completeness": 1.0,
+        "hallucination_score": 0.2
+      },
+      "metric_explanations": {
+        "faithfulness": "The answer provides a wealth of information about Turkey and Izmir that is largely accurate and relevant, but includes details that go beyond what was explicitly stated in the provided context. While the core geographical information about Turkey is correct, there are unverified details regarding international organizations and specific economic roles of Izmir that detract from its faithfulness.",
+        "answer_relevancy": "The answer thoroughly addresses the question by providing comprehensive and directly relevant information about both Turkey and Izmir. It covers geographical, historical, and cultural aspects in a clear and logical manner, ensuring all parts of the question are effectively answered.",
+        "context_precision": "The context provided contains a mix of relevant and irrelevant details regarding Turkey and insufficient specific information about Izmir. While some important facts about Turkey are present, the lack of focused content on Izmir adversely impacts the precision score.",
+        "completeness": "The answer is comprehensive, covering all key aspects of the question regarding Turkey and Izmir. It includes geographical, historical, and cultural insights, fulfilling all parts of the task effectively and thoroughly.",
+        "hallucination_score": "The answer generally reflects accurate information, but it does include some embellishments and subjective assessments that are not explicitly supported by the provided context. This lowers the score slightly due to the presence of potentially misleading statements."
+      },
+      "overall_score": 0.68,
+      "timestamp": "2025-06-29T19:23:46.838158",
+      "response_time": 8.955675,
+      "token_usage": {
+        "prompt_tokens": 650,
+        "completion_tokens": 381
+      }
+    }
+  ],
+  "judge_evaluation": {
+    "model_results": [
+      {
+        "model_name": "PageRank_GraphRAG",
+        "score": 9,
+        "justification": "This output provides a comprehensive overview of Turkey and Izmir, including historical context, cultural significance, and geographical details. It explains the importance of the country and its major city clearly and thoroughly, making it easy to understand."
+      },
+      {
+        "model_name": "KNN_GraphRAG",
+        "score": 8,
+        "justification": "The response is informative and well-structured, covering the essential aspects of Turkey and Izmir, including geographical positioning, historical context, and cultural heritage. However, it lacks a bit of depth in discussing the city's current cultural scene compared to others."
+      },
+      {
+        "model_name": "Basic_GraphRAG",
+        "score": 7,
+        "justification": "While the answer provides a solid overview of Turkey's history and geographical context, it is somewhat less detailed regarding Izmir's modern cultural significance and tourism. The tonal complexity and depth of insight could be improved for a more engaging read."
+      }
+    ],
+    "overall_comparison": "The PageRank_GraphRAG performed the best due to its thoroughness, providing a rich understanding of both Turkey and Izmir, covering a wide array of information without losing coherence. The KNN_GraphRAG offered a solid and structured response with good information, but somewhat less detail about Izmir's cultural vibrancy. The Basic_GraphRAG, while informative, was more generic and less satisfying in depth regarding contemporary aspects of Izmir, thus scoring the lowest among the three."
+  },
+  "best_method": "PageRank_GraphRAG",
+  "timestamp": "2025-06-29T19:23:52.468529",
+  "statistical_analysis": {
+    "score_statistics": {
+      "mean": 0.73,
+      "median": 0.75,
+      "std_dev": 0.04358898943540671,
+      "min": 0.68,
+      "max": 0.76
+    },
+    "response_time_statistics": {
+      "mean": 10.875378,
+      "median": 11.34306,
+      "std_dev": 1.7338326109769076,
+      "min": 8.955675,
+      "max": 12.327399
+    },
+    "method_rankings": {
+      "PageRank_GraphRAG": 0.76,
+      "KNN_GraphRAG": 0.75,
+      "Basic_GraphRAG": 0.68
+    }
+  }
+}

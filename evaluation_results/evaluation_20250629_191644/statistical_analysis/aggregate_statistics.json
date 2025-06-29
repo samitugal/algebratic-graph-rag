@@ -1,0 +1,49 @@
+{
+  "total_questions": 5,
+  "methods_compared": [
+    "PageRank_GraphRAG",
+    "KNN_GraphRAG",
+    "Basic_GraphRAG"
+  ],
+  "method_statistics": {
+    "PageRank_GraphRAG": {
+      "mean_score": 0.705,
+      "median_score": 0.725,
+      "std_score": 0.10380269746013344,
+      "mean_response_time": 9.6369228,
+      "total_evaluations": 5
+    },
+    "KNN_GraphRAG": {
+      "mean_score": 0.7506666666666667,
+      "median_score": 0.75,
+      "std_score": 0.07990967122667662,
+      "mean_response_time": 8.5825756,
+      "total_evaluations": 5
+    },
+    "Basic_GraphRAG": {
+      "mean_score": 0.72,
+      "median_score": 0.7,
+      "std_score": 0.05830951894845301,
+      "mean_response_time": 10.5669854,
+      "total_evaluations": 5
+    }
+  },
+  "win_rates": {
+    "PageRank_GraphRAG": {
+      "wins": 2,
+      "total": 5,
+      "win_rate": 40.0
+    },
+    "KNN_GraphRAG": {
+      "wins": 2,
+      "total": 5,
+      "win_rate": 40.0
+    },
+    "Basic_GraphRAG": {
+      "wins": 1,
+      "total": 5,
+      "win_rate": 20.0
+    }
+  },
+  "overall_rankings": {}
+}
